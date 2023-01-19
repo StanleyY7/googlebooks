@@ -1,0 +1,44 @@
+* {
+  padding: none;
+  margin: none;
+}
+
+.section__grid-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  z-index: 105;
+  display: block;
+  color: black;
+}
+.section__grid-container .section__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding: 3rem 2rem;
+}
+.section__grid-container .Card {
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 2px solid black;
+  height: 12rem;
+}
+
+.section__grid-container-top {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  background-color: #151f28;
+}
+.section__grid-container-top .section__ScribeLogo {
+  background-color: gold;
+  border: 2px solid gold;
+  border-radius: 2rem;
+  position: fixed;
+  font-size: 0.8rem;
+  top: -0.5%;
+  left: 0.5%;
+  cursor: default;
+}/*# sourceMappingURL=displayBooks.css.map */
