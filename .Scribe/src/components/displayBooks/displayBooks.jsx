@@ -1,26 +1,48 @@
 import ScribeLogo from "../scribeLogo/scribe";
 import "./displayBooks.css";
+import { useState, useEffect } from "react";
+import SearchBar from "../searchBar/searchBar";
+import BookCard from "../bookCard/bookCard";
 
-const DisplayBooks = (props) => {
+const DisplayBooks = ({ setisSearchStarted }) => {
+  const [display, setDisplay] = useState(true);
+
+  const HideBooks = () => {
+    setDisplay(false);
+  };
+
+  useEffect(() => {
+    if (!display) {
+      setisSearchStarted(false);
+    }
+  }, [display]);
+
   return (
-    <section className="section__grid-container">
+    <section
+      className={`section__grid-container ${!display ? "hide" : "show"}`}
+    >
       <div className="section__grid">
-        <div className="Card"></div>
-        <div className="Card"></div>
-        <div className="Card"></div>
-        <div className="Card"></div>
-        <div className="Card"></div>
-        <div className="Card"></div>
-        <div className="Card"></div>
-        <div className="Card"></div>
-        <div className="Card"></div>
+        <BookCard />
+        <BookCard />
+        <BookCard />
+        <BookCard />
+        <BookCard />
+        <BookCard />
+        <BookCard />
+        <BookCard />
+        <BookCard />
       </div>
 
       <div className="section__grid-container-top">
-        <h1 className="section__ScribeLogo">.Scribe</h1>
+        <h1 className="section__ScribeLogo" onClick={HideBooks}>
+          .Scribe
+        </h1>
+      </div>
+
+      <div className="section__SearchBar">
+        <SearchBar className="override" />
       </div>
     </section>
   );
 };
-
 export default DisplayBooks;

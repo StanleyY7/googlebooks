@@ -1,0 +1,6 @@
+.Card {
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 2px solid black;
+  height: 12rem;
+}/*# sourceMappingURL=bookCard.css.map */

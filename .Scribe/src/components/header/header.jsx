@@ -7,7 +7,6 @@ import ScribeLogo from "../scribeLogo/scribe";
 const Header = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [isSearchStarted, setisSearchStarted] = useState(false);
-
   const searchBooks = async (searchTerm) => {
     const response = await fetch(
       `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}`
@@ -29,7 +28,10 @@ const Header = () => {
 
   return (
     <header>
-      {isSearchStarted && <DisplayBooks />}
+      {isSearchStarted && (
+        <DisplayBooks setisSearchStarted={setisSearchStarted} />
+      )}
+
       <div
         className={`header__content-wrapper ${
           isSearchStarted ? "hide" : "display"

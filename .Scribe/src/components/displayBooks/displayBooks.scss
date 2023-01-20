@@ -40,8 +40,43 @@
     border-radius: 2rem;
     position: fixed;
     font-size: 0.8rem;
-    top: -0.5%;
+    top: -0.7%;
     left: 0.5%;
+    font-weight: bold;
     cursor: default;
+    transition: 0.5s ease;
+    &:hover {
+      transform: scale(1.04);
+    }
   }
+}
+
+.section__SearchBar {
+  position: fixed;
+
+  right: 0%;
+  .icon {
+    position: fixed;
+    width: 1.15rem;
+    top: 0.7%;
+    right: 0.5%;
+  }
+}
+
+.override {
+  position: fixed;
+  top: 0.15%;
+  right: -1.85%;
+
+  display: block;
+  background-color: white;
+  transform: scale(0.7);
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }
