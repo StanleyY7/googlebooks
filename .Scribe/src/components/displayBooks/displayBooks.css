@@ -1,27 +1,33 @@
 * {
   padding: none;
   margin: none;
+  color: black;
 }
 
 .section__grid-container {
-  height: 100vh;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
   width: 100vw;
   background-color: white;
-  z-index: 105;
+  overflow: hidden;
   display: block;
   color: black;
 }
-.section__grid-container .section__grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2rem;
-  padding: 3rem 2rem;
-}
 .section__grid-container .Card {
   display: grid;
-  grid-template-columns: 1fr;
-  border: 2px solid black;
-  height: 12rem;
+  grid-template-columns: 1.5fr;
+  border: 2px groove black;
+  height: 25rem;
+  min-width: 28.5rem;
+  text-align: center;
+  padding: 1.25rem;
+  font-size: 1rem;
+  transition: 0.5s ease;
+}
+.section__grid-container .Card:hover {
+  transform: scale(1.025);
+  background-color: hwb(237 2% 49%/0.154);
 }
 
 .section__grid-container-top {
@@ -32,20 +38,26 @@
   height: 2rem;
   background-color: #151f28;
 }
-.section__grid-container-top .section__ScribeLogo {
-  background-color: gold;
-  border: 2px solid gold;
+
+.section__ScribeLogo {
   border-radius: 2rem;
-  position: fixed;
-  font-size: 0.8rem;
-  top: -0.7%;
-  left: 0.5%;
+  background-color: #fcf258;
+  border: 2px solid #fcf258;
   font-weight: bold;
   cursor: default;
+  position: fixed;
+  border-radius: 2rem;
+  padding: 0rem;
+  color: black;
+  font-size: 0.8rem;
+  font-weight: bold;
   transition: 0.5s ease;
+  top: -0.7%;
+  left: 0.5%;
 }
-.section__grid-container-top .section__ScribeLogo:hover {
+.section__ScribeLogo:hover {
   transform: scale(1.04);
+  cursor: pointer;
 }
 
 .section__SearchBar {
@@ -59,7 +71,7 @@
   right: 0.5%;
 }
 
-.override {
+.section__SearchBar--override {
   position: fixed;
   top: 0.15%;
   right: -1.85%;

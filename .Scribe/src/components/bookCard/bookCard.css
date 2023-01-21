@@ -1,6 +1,10 @@
-.Card {
+.section__grid {
   display: grid;
-  grid-template-columns: 1fr;
-  border: 2px solid black;
-  height: 12rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding: 2.25rem 2rem;
+}
+.section__grid img {
+  width: 9rem;
+  margin: auto;
 }/*# sourceMappingURL=bookCard.css.map */

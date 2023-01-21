@@ -1,8 +1,10 @@
 import "./scribe.css";
-const ScribeLogo = () => {
+const ScribeLogo = ({ setDisplay, display, className }) => {
   return (
-    <div>
-      <h1 className="header__text--yellow-background">.Scribe</h1>
+    <div onClick={() => setDisplay(!display)}>
+      <h1 className={`header__text--yellow-background + ${className}`}>
+        .Scribe
+      </h1>
     </div>
   );
 };

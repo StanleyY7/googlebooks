@@ -4,11 +4,18 @@ import { useState, useEffect } from "react";
 import SearchBar from "../searchBar/searchBar";
 import BookCard from "../bookCard/bookCard";
 
-const DisplayBooks = ({ setisSearchStarted }) => {
+const DisplayBooks = ({
+  books,
+  setisSearchStarted,
+  searchTerm,
+  setSearchTerm,
+  isSearchStarted,
+  searchBooks,
+}) => {
   const [display, setDisplay] = useState(true);
 
   const HideBooks = () => {
-    setDisplay(false);
+    setDisplay(!display);
   };
 
   useEffect(() => {
@@ -22,25 +29,27 @@ const DisplayBooks = ({ setisSearchStarted }) => {
       className={`section__grid-container ${!display ? "hide" : "show"}`}
     >
       <div className="section__grid">
-        <BookCard />
-        <BookCard />
-        <BookCard />
-        <BookCard />
-        <BookCard />
-        <BookCard />
-        <BookCard />
-        <BookCard />
-        <BookCard />
+        <BookCard books={books} className="Card" />
       </div>
 
       <div className="section__grid-container-top">
-        <h1 className="section__ScribeLogo" onClick={HideBooks}>
-          .Scribe
-        </h1>
+        <ScribeLogo
+          className="section__ScribeLogo"
+          onClick={HideBooks}
+          setDisplay={setDisplay}
+          display={display}
+        />
       </div>
 
       <div className="section__SearchBar">
-        <SearchBar className="override" />
+        <SearchBar
+          className="section__SearchBar--override"
+          searchTerm={searchTerm}
+          setSearchTerm={setSearchTerm}
+          isSearchStarted={isSearchStarted}
+          setisSearchStarted={setisSearchStarted}
+          searchBooks={searchBooks}
+        />
       </div>
     </section>
   );
