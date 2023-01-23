@@ -7,26 +7,27 @@
 .section__grid-container {
   height: min-content;
   width: 100vw;
-  background-color: white;
+  background-color: #ececec;
   overflow: hidden;
 
   display: block;
   color: black;
 
-  .Card {
+  .card {
     display: grid;
     grid-template-columns: 1.5fr;
+    background-color: white;
     border: 2px groove black;
     height: 25rem;
     min-width: 28.5rem;
     text-align: center;
     padding: 1.25rem;
-    font-size: 1rem;
+    font-size: 1.25rem;
     transition: 0.5s ease;
 
     &:hover {
       transform: scale(1.025);
-      background-color: hwb(237 2% 49% / 0.154);
+      background-color: #88b9c817;
     }
   }
 }
@@ -36,7 +37,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  height: 2rem;
+  height: 3rem;
   background-color: #151f28;
 }
 
@@ -51,14 +52,14 @@
   border-radius: 2rem;
   padding: 0rem;
   color: black;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   font-weight: bold;
   transition: 0.5s ease;
   &:hover {
     transform: scale(1.04);
     cursor: pointer;
   }
-  top: -0.7%;
+  top: -0.9%;
   left: 0.5%;
 }
 
@@ -68,20 +69,20 @@
   right: 0%;
   .icon {
     position: fixed;
-    width: 1.15rem;
-    top: 0.7%;
-    right: 0.5%;
+    width: 1.35rem;
+    top: 1.325%;
+    right: 0.4%;
   }
 }
 
 .section__SearchBar--override {
   position: fixed;
-  top: 0.15%;
-  right: -1.85%;
+  top: 1%;
+  right: -1.2%;
 
   display: block;
   background-color: white;
-  transform: scale(0.7);
+  transform: scale(0.8);
 }
 
 .hide {

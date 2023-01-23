@@ -29,7 +29,7 @@ const DisplayBooks = ({
       className={`section__grid-container ${!display ? "hide" : "show"}`}
     >
       <div className="section__grid">
-        <BookCard books={books} className="Card" />
+        <BookCard books={books} className="card" />
       </div>
 
       <div className="section__grid-container-top">

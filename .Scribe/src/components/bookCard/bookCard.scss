@@ -9,3 +9,17 @@
     margin: auto;
   }
 }
+
+.card__description {
+  font-size: 1rem;
+  display: none;
+  overflow-y: auto;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}

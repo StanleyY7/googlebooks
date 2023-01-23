@@ -7,12 +7,13 @@
 }
 
 .header__input-wrapper {
-  margin-top: -3rem;
+  margin-top: -4rem;
 
   input {
     background-color: white;
     font-size: 1.35rem;
     border: none;
+    outline: white;
     border-radius: 2rem;
     color: black;
   }
@@ -29,4 +30,52 @@
 
 .display {
   display: block;
+}
+
+@media screen and (max-width: 350px) {
+  .header__input-wrapper {
+    margin-top: -3rem;
+
+    input {
+      background-color: white;
+      font-size: 1.02rem;
+      border: none;
+      border-radius: 2rem;
+      color: black;
+    }
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 410px) {
+  .header__input-wrapper {
+    margin-top: -3rem;
+
+    input {
+      background-color: white;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 2rem;
+      color: black;
+    }
+  }
+}
+
+@media screen and (min-width: 410px) and (max-width: 450px) {
+  .header__input-wrapper {
+    margin-top: -3.25rem;
+
+    input {
+      background-color: white;
+      font-size: 1.15rem;
+      border: none;
+      border-radius: 2rem;
+      color: black;
+    }
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 500px) {
+  .header__input-wrapper {
+    margin-top: -3.25rem;
+  }
 }

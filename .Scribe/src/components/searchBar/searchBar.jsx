@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./searchBar.css";
 import search from "../../assets/search.png";
 
 const SearchBar = ({

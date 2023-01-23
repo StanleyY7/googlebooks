@@ -5,4 +5,20 @@
   color: black;
   font-size: 8rem;
   font-weight: bold;
+}
+
+@media screen and (max-width: 350px) {
+  .header__text--yellow-background {
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 410px) {
+  .header__text--yellow-background {
+    font-size: 5.5rem;
+  }
+}
+@media screen and (min-width: 410px) and (max-width: 500px) {
+  .header__text--yellow-background {
+    font-size: 6.5rem;
+  }
 }/*# sourceMappingURL=scribe.css.map */

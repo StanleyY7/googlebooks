@@ -46,4 +46,15 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #151f28;
+}
+
+.inputWrapper {
+  margin-top: -4rem;
+}
+
+@media screen and (max-width: 350px) {
+  .inputWrapper {
+    margin-top: 1rem;
+    transform: scale(0.9);
+  }
 }/*# sourceMappingURL=App.module.css.map */
