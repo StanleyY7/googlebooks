@@ -13,7 +13,7 @@ const DisplayBooks = ({
   searchBooks,
 }) => {
   const [display, setDisplay] = useState(true);
-
+  let iconClassOverride = "icon--override";
   const HideBooks = () => {
     setDisplay(!display);
   };
@@ -49,6 +49,7 @@ const DisplayBooks = ({
           isSearchStarted={isSearchStarted}
           setisSearchStarted={setisSearchStarted}
           searchBooks={searchBooks}
+          iconClassOverride={iconClassOverride}
         />
       </div>
     </section>

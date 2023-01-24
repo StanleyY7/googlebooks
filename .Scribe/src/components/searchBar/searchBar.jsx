@@ -9,6 +9,7 @@ const SearchBar = ({
   setisSearchStarted,
   searchBooks,
   className,
+  iconClassOverride,
 }) => {
   const doSearch = () => {
     setisSearchStarted(true);
@@ -31,7 +32,11 @@ const SearchBar = ({
         onChange={(e) => setSearchTerm(e.target.value)}
         onKeyDown={handleEnter}
       />
-      <img className="icon" src={search} onClick={doSearch} />
+      <img
+        className={`icon ${iconClassOverride}`}
+        src={search}
+        onClick={doSearch}
+      />
     </div>
   );
 };
