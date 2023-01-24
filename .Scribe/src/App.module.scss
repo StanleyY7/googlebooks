@@ -41,11 +41,13 @@ body {
 
 .inputWrapper {
   margin-top: -4rem;
+  padding: 0.25rem 0.5rem;
 }
 
 @media screen and (max-width: 350px) {
   .inputWrapper {
     margin-top: 1rem;
+
     transform: scale(0.9);
   }
 }

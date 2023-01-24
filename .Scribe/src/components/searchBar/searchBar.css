@@ -8,9 +8,9 @@
 
 .icon {
   position: absolute;
-  right: 20.75%;
-  bottom: 2%;
-  transform: scale(1);
+  right: 20%;
+  bottom: 2.5%;
+  transform: scale(1.2);
 }
 
 @media screen and (max-width: 350px) {

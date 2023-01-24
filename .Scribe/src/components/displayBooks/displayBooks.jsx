@@ -2,7 +2,7 @@ import ScribeLogo from "../scribeLogo/scribe";
 import "./displayBooks.css";
 import { useState, useEffect } from "react";
 import SearchBar from "../searchBar/searchBar";
-import BookCard from "../bookCard/bookCard";
+import BookList from "../bookList/BookList";
 
 const DisplayBooks = ({
   books,
@@ -29,7 +29,7 @@ const DisplayBooks = ({
       className={`section__grid-container ${!display ? "hide" : "show"}`}
     >
       <div className="section__grid">
-        <BookCard books={books} className="card" />
+        <BookList books={books} className="card" />
       </div>
 
       <div className="section__grid-container-top">
