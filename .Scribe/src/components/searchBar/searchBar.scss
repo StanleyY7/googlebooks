@@ -16,9 +16,9 @@
 @media screen and (max-width: 350px) {
   .header__input-wrapper {
     .icon {
-      transform: scale(0.79);
-      right: 13.85%;
-      bottom: 2.3%;
+      transform: scale(0.95);
+      right: 12.75%;
+      bottom: 2.75%;
     }
   }
 }
@@ -26,9 +26,9 @@
 @media screen and (min-width: 350px) and (max-width: 410px) {
   .header__input-wrapper {
     .icon {
-      transform: scale(0.92);
-      right: 16.5%;
-      bottom: 2.1%;
+      transform: scale(0.99);
+      right: 15.25%;
+      bottom: 2.5%;
     }
   }
 }
@@ -36,9 +36,8 @@
 @media screen and (min-width: 410px) and (max-width: 450px) {
   .header__input-wrapper {
     .icon {
-      transform: scale(0.93);
-      right: 19.6%;
-      bottom: 1.9%;
+      right: 19%;
+      bottom: 2.25%;
     }
   }
 }
@@ -46,8 +45,9 @@
 @media screen and (min-width: 450px) and (max-width: 500px) {
   .header__input-wrapper {
     .icon {
-      right: 15%;
-      bottom: 2.3%;
+      right: 14.5%;
+      transform: scale(1.2);
+      bottom: 2.75%;
     }
   }
 }
