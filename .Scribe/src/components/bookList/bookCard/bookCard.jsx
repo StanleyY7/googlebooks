@@ -15,7 +15,7 @@ const BookCard = ({ book, className }) => {
   return (
     <>
       <div
-        key={book.id}
+        key={book.etag}
         className={className}
         onMouseOver={setDisplayDescTrue}
         onMouseLeave={setDisplayDescFalse}
