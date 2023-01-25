@@ -13,6 +13,7 @@
   overflow: hidden;
   display: block;
   color: black;
+  overflow-x: hidden;
 }
 .section__grid-container .card {
   display: grid;
@@ -100,25 +101,25 @@
     width: 117.5vw;
   }
   .section__grid-container {
-    min-width: 102.5vw;
+    min-width: 102vw;
     padding: 1.25rem;
     margin-top: -271.5rem;
     height: 1730vh;
   }
   .icon--override {
-    top: 1.55% !important;
+    top: 1.3% !important;
     right: 1.5% !important;
     transform: scale(0.88) !important;
   }
   .section__SearchBar--override {
-    top: 1.5%;
+    top: 1.25%;
     right: -3%;
   }
   .section__ScribeLogo {
     margin-left: 0.25rem;
   }
 }
-@media screen and (min-width: 295px) and (max-width: 315px) {
+@media screen and (min-width: 295px) and (max-width: 311px) {
   .section__grid-container-top {
     width: 117vw;
   }
@@ -129,12 +130,35 @@
     height: 796rem;
   }
   .icon--override {
-    top: 1.55% !important;
+    top: 1.3% !important;
     right: 1.38% !important;
     transform: scale(0.88) !important;
   }
   .section__SearchBar--override {
-    top: 1.5%;
+    top: 1.25%;
+    right: -3%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+@media screen and (min-width: 311px) and (max-width: 315px) {
+  .section__grid-container-top {
+    width: 117vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -232rem;
+    height: 834.5rem;
+  }
+  .icon--override {
+    top: 1.325% !important;
+    right: 1.15% !important;
+    transform: scale(0.88) !important;
+  }
+  .section__SearchBar--override {
+    top: 1.25%;
     right: -3%;
   }
   .section__ScribeLogo {
@@ -152,12 +176,12 @@
     height: 835rem;
   }
   .icon--override {
-    top: 1.55% !important;
+    top: 1.35% !important;
     right: 1.05% !important;
     transform: scale(0.88) !important;
   }
   .section__SearchBar--override {
-    top: 1.5%;
+    top: 1.25%;
     right: -3%;
   }
   .section__ScribeLogo {
@@ -169,18 +193,18 @@
     width: 117vw;
   }
   .section__grid-container {
-    min-width: 102.5vw;
+    min-width: 100vw;
     padding: 1.25rem;
     margin-top: -232.5rem;
     height: 835rem;
   }
   .icon--override {
-    top: 1.6% !important;
+    top: 1.3% !important;
     right: 1.05% !important;
     transform: scale(0.88) !important;
   }
   .section__SearchBar--override {
-    top: 1.5%;
+    top: 1.25%;
     right: -3%;
   }
   .section__ScribeLogo {
@@ -198,12 +222,12 @@
     height: 835rem;
   }
   .icon--override {
-    top: 1.55% !important;
+    top: 1.3% !important;
     right: 1.1% !important;
     transform: scale(0.88) !important;
   }
   .section__SearchBar--override {
-    top: 1.5%;
+    top: 1.25%;
     right: -3%;
   }
   .section__ScribeLogo {
@@ -221,12 +245,12 @@
     height: 875rem;
   }
   .icon--override {
-    top: 1.55% !important;
+    top: 1.3% !important;
     right: 0.925% !important;
     transform: scale(0.88) !important;
   }
   .section__SearchBar--override {
-    top: 1.5%;
+    top: 1.25%;
     right: -3%;
   }
   .section__ScribeLogo {
@@ -244,12 +268,12 @@
     height: 875rem;
   }
   .icon--override {
-    top: 1.6% !important;
+    top: 1.35% !important;
     right: 0.9% !important;
     transform: scale(0.88) !important;
   }
   .section__SearchBar--override {
-    top: 1.5%;
+    top: 1.25%;
     right: -3%;
   }
   .section__ScribeLogo {
@@ -267,12 +291,12 @@
     height: 897.5rem;
   }
   .icon--override {
-    top: 1.6% !important;
+    top: 1.355% !important;
     right: 0.8% !important;
     transform: scale(0.88) !important;
   }
   .section__SearchBar--override {
-    top: 1.5%;
+    top: 1.25%;
     right: -3%;
   }
   .section__ScribeLogo {
@@ -290,12 +314,12 @@
     height: 897.5rem;
   }
   .icon--override {
-    top: 1.6% !important;
+    top: 1.355% !important;
     right: 0.7% !important;
     transform: scale(0.88) !important;
   }
   .section__SearchBar--override {
-    top: 1.5%;
+    top: 1.25%;
     right: -3%;
   }
   .section__ScribeLogo {
@@ -313,12 +337,12 @@
     height: 897.5rem;
   }
   .icon--override {
-    top: 1.6% !important;
+    top: 1.355% !important;
     right: 0.7% !important;
     transform: scale(0.88) !important;
   }
   .section__SearchBar--override {
-    top: 1.5%;
+    top: 1.25%;
     right: -3%;
   }
   .section__ScribeLogo {
@@ -336,12 +360,12 @@
     height: 897.5rem;
   }
   .icon--override {
-    top: 1.55% !important;
+    top: 1.425% !important;
     right: 0.7% !important;
     transform: scale(0.88) !important;
   }
   .section__SearchBar--override {
-    top: 1.4%;
+    top: 1.25%;
     right: -3%;
   }
   .section__ScribeLogo {
@@ -359,13 +383,256 @@
     height: 897.5rem;
   }
   .icon--override {
-    top: 1.55% !important;
+    top: 1.425% !important;
     right: 0.7% !important;
     transform: scale(0.88) !important;
   }
   .section__SearchBar--override {
-    top: 1.4%;
+    top: 1.25%;
     right: -3%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+@media screen and (min-width: 430px) and (max-width: 450px) {
+  .section__grid-container-top {
+    width: 117vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -169.75rem;
+    height: 897.5rem;
+  }
+  .icon--override {
+    top: 1.425% !important;
+    right: 0.7% !important;
+    transform: scale(0.88) !important;
+  }
+  .section__SearchBar--override {
+    top: 1.25%;
+    right: -3%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 460px) {
+  .section__grid-container-top {
+    width: 117vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -147rem;
+    height: 920rem;
+  }
+  .icon--override {
+    top: 1.45% !important;
+    right: 1.2% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -3%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+@media screen and (min-width: 460px) and (max-width: 470px) {
+  .section__grid-container-top {
+    width: 117vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -147rem;
+    height: 920rem;
+  }
+  .icon--override {
+    top: 1.45% !important;
+    right: 1% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -3%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+@media screen and (min-width: 470px) and (max-width: 505px) {
+  .section__grid-container-top {
+    width: 117vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -124.25rem;
+    height: 943rem;
+  }
+  .icon--override {
+    top: 1.45% !important;
+    right: 1% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -3%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+@media screen and (min-width: 505px) and (max-width: 530px) {
+  .section__grid-container-top {
+    width: 117vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -100.75rem;
+    height: 968rem;
+  }
+  .icon--override {
+    top: 1.45% !important;
+    right: 0.8% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -3%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+@media screen and (min-width: 530px) and (max-width: 550px) {
+  .section__grid-container-top {
+    width: 117vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -51rem;
+    height: 1017rem;
+  }
+  .icon--override {
+    top: 1.45% !important;
+    right: 0.8% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -3%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 600px) {
+  .section__grid-container-top {
+    width: 117vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 0rem;
+    height: 1070rem;
+  }
+  .icon--override {
+    top: 1.45% !important;
+    right: 0.425% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -3%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 650px) {
+  .section__grid-container-top {
+    width: 117vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 0rem;
+    height: 1070rem;
+  }
+  .icon--override {
+    top: 1.45% !important;
+    right: 0.425% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -2.85%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 700px) {
+  .section__grid-container-top {
+    width: 117vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 0rem;
+    height: 1070rem;
+  }
+  .icon--override {
+    top: 1.45% !important;
+    right: 0.425% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -2.5%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 765px) {
+  .section__grid-container-top {
+    width: 117vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 0rem;
+    height: 1070rem;
+  }
+  .icon--override {
+    top: 1.425% !important;
+    right: 0.75% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -2%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+@media screen and (min-width: 765px) and (max-width: 800px) {
+  .section__grid-container-top {
+    width: 117vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 0rem;
+    height: 1070rem;
+  }
+  .icon--override {
+    top: 1.425% !important;
+    right: 0.625% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -2%;
   }
   .section__ScribeLogo {
     margin-left: 0.25rem;
