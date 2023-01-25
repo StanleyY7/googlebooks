@@ -13,6 +13,7 @@
   transform: scale(1.2);
 }
 
+/* Media Queries */
 @media screen and (max-width: 350px) {
   .header__input-wrapper .icon {
     transform: scale(0.95);

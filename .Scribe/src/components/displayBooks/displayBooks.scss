@@ -5,11 +5,10 @@
 }
 
 .section__grid-container {
-  height: min-content;
+  height: fit-content;
   width: 100vw;
   background-color: #ececec;
   overflow: hidden;
-
   display: block;
   color: black;
 
@@ -21,7 +20,6 @@
     height: 25rem;
     min-width: 28.5rem;
     text-align: center;
-    padding: 1.25rem;
     font-size: 1.25rem;
     transition: 0.5s ease;
 
@@ -98,23 +96,289 @@
   transform: scale(1);
 }
 
-@media screen and (max-width: 350px) {
+/* Media Queries */
+
+@media screen and (max-width: 295px) {
+  .section__grid-container-top {
+    width: 117.5vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -271.5rem;
+    height: 1730vh;
+  }
+  .icon--override {
+    top: 1.55% !important;
+    right: 1.5% !important;
+    transform: scale(0.88) !important;
+  }
+  .section__SearchBar--override {
+    top: 1.5%;
+    right: -3%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 295px) and (max-width: 315px) {
   .section__grid-container-top {
     width: 117vw;
   }
   .section__grid-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -296rem;
-    height: 2125vh;
+    margin-top: -271.5rem;
+    height: 796rem;
   }
   .icon--override {
-    top: 1.6% !important;
-    right: 1.5% !important;
-    transform: scale(0.9) !important;
+    top: 1.55% !important;
+    right: 1.38% !important;
+    transform: scale(0.88) !important;
   }
   .section__SearchBar--override {
     top: 1.5%;
+    right: -3%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 315px) and (max-width: 318px) {
+  .section__grid-container-top {
+    width: 117vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -232.5rem;
+    height: 835rem;
+  }
+  .icon--override {
+    top: 1.55% !important;
+    right: 1.05% !important;
+    transform: scale(0.88) !important;
+  }
+  .section__SearchBar--override {
+    top: 1.5%;
+    right: -3%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 318px) and (max-width: 325px) {
+  .section__grid-container-top {
+    width: 117vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -232.5rem;
+    height: 835rem;
+  }
+  .icon--override {
+    top: 1.6% !important;
+    right: 1.05% !important;
+    transform: scale(0.88) !important;
+  }
+  .section__SearchBar--override {
+    top: 1.5%;
+    right: -3%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 325px) and (max-width: 335px) {
+  .section__grid-container-top {
+    width: 117vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -232.5rem;
+    height: 835rem;
+  }
+  .icon--override {
+    top: 1.55% !important;
+    right: 1.1% !important;
+    transform: scale(0.88) !important;
+  }
+  .section__SearchBar--override {
+    top: 1.5%;
+    right: -3%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 335px) and (max-width: 350px) {
+  .section__grid-container-top {
+    width: 117vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -191.25rem;
+    height: 875rem;
+  }
+  .icon--override {
+    top: 1.55% !important;
+    right: 0.925% !important;
+    transform: scale(0.88) !important;
+  }
+  .section__SearchBar--override {
+    top: 1.5%;
+    right: -3%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 380px) {
+  .section__grid-container-top {
+    width: 117vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -191.25rem;
+    height: 875rem;
+  }
+  .icon--override {
+    top: 1.6% !important;
+    right: 0.9% !important;
+    transform: scale(0.88) !important;
+  }
+  .section__SearchBar--override {
+    top: 1.5%;
+    right: -3%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 390px) {
+  .section__grid-container-top {
+    width: 117vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -169.75rem;
+    height: 897.5rem;
+  }
+  .icon--override {
+    top: 1.6% !important;
+    right: 0.8% !important;
+    transform: scale(0.88) !important;
+  }
+  .section__SearchBar--override {
+    top: 1.5%;
+    right: -3%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 390px) and (max-width: 400px) {
+  .section__grid-container-top {
+    width: 117vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -169.75rem;
+    height: 897.5rem;
+  }
+  .icon--override {
+    top: 1.6% !important;
+    right: 0.7% !important;
+    transform: scale(0.88) !important;
+  }
+  .section__SearchBar--override {
+    top: 1.5%;
+    right: -3%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 410px) {
+  .section__grid-container-top {
+    width: 117vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -169.75rem;
+    height: 897.5rem;
+  }
+  .icon--override {
+    top: 1.6% !important;
+    right: 0.7% !important;
+    transform: scale(0.88) !important;
+  }
+  .section__SearchBar--override {
+    top: 1.5%;
+    right: -3%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 410px) and (max-width: 420px) {
+  .section__grid-container-top {
+    width: 117vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -169.75rem;
+    height: 897.5rem;
+  }
+  .icon--override {
+    top: 1.55% !important;
+    right: 0.7% !important;
+    transform: scale(0.88) !important;
+  }
+  .section__SearchBar--override {
+    top: 1.4%;
+    right: -3%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 430px) {
+  .section__grid-container-top {
+    width: 117vw;
+  }
+  .section__grid-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -169.75rem;
+    height: 897.5rem;
+  }
+  .icon--override {
+    top: 1.55% !important;
+    right: 0.7% !important;
+    transform: scale(0.88) !important;
+  }
+  .section__SearchBar--override {
+    top: 1.4%;
     right: -3%;
   }
   .section__ScribeLogo {
