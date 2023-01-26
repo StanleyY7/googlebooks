@@ -26,13 +26,15 @@ const DisplayBooks = ({
 
   return (
     <section
-      className={`section__grid-container ${!display ? "hide" : "show"}`}
+      className={`section__content-container ${!display ? "hide" : "show"}`}
     >
-      <div className="section__grid">
-        <BookList books={books} className="card" />
+      <div className="grid-wrapper">
+        <div className="section__grid">
+          <BookList books={books} className="card" />
+        </div>
       </div>
 
-      <div className="section__grid-container-top">
+      <div className="section__content-container-top">
         <ScribeLogo
           className="section__ScribeLogo"
           onClick={HideBooks}

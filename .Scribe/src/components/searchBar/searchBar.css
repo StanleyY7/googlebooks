@@ -17,8 +17,9 @@
 @media screen and (max-width: 316px) {
   .header__input-wrapper .icon {
     transform: scale(0.95);
-    right: 12.5%;
-    bottom: 3.5%;
+    right: 12.75%;
+    bottom: 3%;
+    padding-bottom: 0.05rem;
   }
 }
 @media screen and (min-width: 316px) and (max-width: 350px) {

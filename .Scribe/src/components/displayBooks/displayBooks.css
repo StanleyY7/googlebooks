@@ -4,7 +4,12 @@
   color: black;
 }
 
-.section__grid-container {
+.grid-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.section__content-container {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -15,7 +20,7 @@
   color: black;
   overflow-x: hidden;
 }
-.section__grid-container .card {
+.section__content-container .card {
   display: grid;
   grid-template-columns: 1.5fr;
   background-color: white;
@@ -26,12 +31,12 @@
   font-size: 1.25rem;
   transition: 0.5s ease;
 }
-.section__grid-container .card:hover {
+.section__content-container .card:hover {
   transform: scale(1.025);
   background-color: rgba(136, 185, 200, 0.0901960784);
 }
 
-.section__grid-container-top {
+.section__content-container-top {
   width: 100vw;
   position: fixed;
   top: 0;
@@ -100,10 +105,10 @@
   body {
     zoom: 0.8;
   }
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 125.5vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 110vw;
     padding: 1.25rem;
     margin-top: -271rem;
@@ -126,10 +131,10 @@
   body {
     zoom: 0.8;
   }
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 126vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 112vw;
     padding: 1.25rem;
     margin-top: -232rem;
@@ -152,10 +157,10 @@
   body {
     zoom: 0.95;
   }
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 125.5vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 112.5vw;
     padding: 1.25rem;
     margin-top: -232.5rem;
@@ -178,10 +183,10 @@
   body {
     zoom: 0.95;
   }
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 125vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 110vw;
     padding: 1.25rem;
     margin-top: -232.5rem;
@@ -204,10 +209,10 @@
   body {
     zoom: 0.95;
   }
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: -232.5rem;
@@ -230,10 +235,10 @@
   body {
     zoom: 0.95;
   }
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: -191.25rem;
@@ -253,10 +258,10 @@
   }
 }
 @media screen and (min-width: 350px) and (max-width: 380px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: -191.25rem;
@@ -276,10 +281,10 @@
   }
 }
 @media screen and (min-width: 380px) and (max-width: 390px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: -169.75rem;
@@ -299,10 +304,10 @@
   }
 }
 @media screen and (min-width: 390px) and (max-width: 400px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: -169.75rem;
@@ -325,10 +330,10 @@
   body {
     zoom: 0.8;
   }
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 126vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 114vw;
     padding: 1.25rem;
     margin-top: -169.75rem;
@@ -351,10 +356,10 @@
   body {
     zoom: 0.8;
   }
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 125.5vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 115.5vw;
     padding: 1.25rem;
     margin-top: -169.75rem;
@@ -374,10 +379,10 @@
   }
 }
 @media screen and (min-width: 421px) and (max-width: 430px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: -169.75rem;
@@ -397,10 +402,10 @@
   }
 }
 @media screen and (min-width: 430px) and (max-width: 450px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: -169.75rem;
@@ -420,10 +425,10 @@
   }
 }
 @media screen and (min-width: 450px) and (max-width: 460px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: -147rem;
@@ -442,10 +447,10 @@
   }
 }
 @media screen and (min-width: 460px) and (max-width: 470px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: -147rem;
@@ -464,10 +469,10 @@
   }
 }
 @media screen and (min-width: 470px) and (max-width: 505px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: -124.25rem;
@@ -486,10 +491,10 @@
   }
 }
 @media screen and (min-width: 505px) and (max-width: 530px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: -100.75rem;
@@ -508,10 +513,10 @@
   }
 }
 @media screen and (min-width: 530px) and (max-width: 550px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: -51rem;
@@ -530,10 +535,10 @@
   }
 }
 @media screen and (min-width: 550px) and (max-width: 600px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 0rem;
@@ -552,10 +557,10 @@
   }
 }
 @media screen and (min-width: 600px) and (max-width: 650px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 0rem;
@@ -574,10 +579,10 @@
   }
 }
 @media screen and (min-width: 650px) and (max-width: 700px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 0rem;
@@ -596,10 +601,10 @@
   }
 }
 @media screen and (min-width: 700px) and (max-width: 765px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 0rem;
@@ -618,10 +623,10 @@
   }
 }
 @media screen and (min-width: 765px) and (max-width: 800px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 0rem;
@@ -640,10 +645,10 @@
   }
 }
 @media screen and (min-width: 800px) and (max-width: 850px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 0.5rem;
@@ -662,10 +667,10 @@
   }
 }
 @media screen and (min-width: 850px) and (max-width: 900px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 0.5rem;
@@ -684,10 +689,10 @@
   }
 }
 @media screen and (min-width: 900px) and (max-width: 950px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 0.5rem;
@@ -706,10 +711,10 @@
   }
 }
 @media screen and (min-width: 950px) and (max-width: 1000px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 0.5rem;
@@ -728,10 +733,10 @@
   }
 }
 @media screen and (min-width: 1000px) and (max-width: 1050px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 0.5rem;
@@ -750,10 +755,10 @@
   }
 }
 @media screen and (min-width: 1050px) and (max-width: 1100px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 0.5rem;
@@ -772,10 +777,10 @@
   }
 }
 @media screen and (min-width: 1100px) and (max-width: 1150px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 0.5rem;
@@ -795,10 +800,10 @@
   }
 }
 @media screen and (min-width: 1150px) and (max-width: 1200px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 0.5rem;
@@ -818,10 +823,10 @@
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1300px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 0.5rem;
@@ -841,10 +846,10 @@
   }
 }
 @media screen and (min-width: 1300px) and (max-width: 1350px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 0.5rem;
@@ -864,10 +869,10 @@
   }
 }
 @media screen and (min-width: 1350px) and (max-width: 1400px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 0.5rem;
@@ -887,10 +892,10 @@
   }
 }
 @media screen and (min-width: 1400px) and (max-width: 1445px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 0.5rem;
@@ -910,10 +915,10 @@
   }
 }
 @media screen and (min-width: 1445px) and (max-width: 1450px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 0.5rem;
@@ -933,10 +938,10 @@
   }
 }
 @media screen and (min-width: 1450px) and (max-width: 1500px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 0.5rem;
@@ -958,10 +963,10 @@
   }
 }
 @media screen and (min-width: 1500px) and (max-width: 1600px) {
-  .section__grid-container-top {
+  .section__content-container-top {
     width: 117vw;
   }
-  .section__grid-container {
+  .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 0.5rem;
