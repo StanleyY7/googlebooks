@@ -12,38 +12,63 @@
 }
 
 .icon {
-  position: absolute;
-  right: 20.25%;
-  bottom: 2.45%;
-  padding-bottom: 0.25rem;
   transform: scale(1.25);
+  padding-bottom: 0.05rem;
 }
 
+.searchbar-wrapper {
+  position: relative;
+  background-color: white;
+  width: 286px;
+  border-radius: 2rem;
+}
+
+input {
+  border: none;
+  outline: none;
+}
 /* Media Queries */
 
 @media screen and (max-width: 316px) {
-  .header__input-wrapper {
-    .icon {
-      transform: scale(0.95);
-      margin-right: -1.25rem !important;
-    }
+  .searchbar-wrapper {
+    width: 224px;
+    margin-top: 1rem;
+  }
+
+  input {
+    padding-top: -2rem;
+    height: 50%;
+  }
+  .icon {
+    padding-top: 0.2rem;
+    transform: scale(1.15);
   }
 }
 
 @media screen and (min-width: 316px) and (max-width: 350px) {
-  .header__input-wrapper {
-    .icon {
-      transform: scale(0.95);
-      margin-right: -1.25rem !important;
-    }
+  .searchbar-wrapper {
+    width: 224px;
+    margin-top: 1rem;
+  }
+
+  input {
+    padding-top: -2rem;
+    height: 50%;
+  }
+  .icon {
+    padding-top: 0.2rem;
+    transform: scale(1.15);
   }
 }
 
 @media screen and (min-width: 350px) and (max-width: 410px) {
+  .searchbar-wrapper {
+    width: 241px;
+  }
   .header__input-wrapper {
     .icon {
-      transform: scale(0.99);
-      margin-right: -1rem !important;
+      padding-top: 0.2rem;
+      transform: scale(1.15);
     }
   }
 }
@@ -51,9 +76,8 @@
 @media screen and (min-width: 410px) and (max-width: 450px) {
   .header__input-wrapper {
     .icon {
-      transform: scale(0.99);
-      padding-bottom: 0.225rem;
-      margin-right: -0.45rem !important;
+      transform: scale(1.15);
+      padding-top: 0.2rem;
     }
   }
 }
@@ -61,9 +85,7 @@
 @media screen and (min-width: 450px) and (max-width: 500px) {
   .header__input-wrapper {
     .icon {
-      right: 14.25%;
       transform: scale(1.15);
-      bottom: 3%;
     }
   }
 }

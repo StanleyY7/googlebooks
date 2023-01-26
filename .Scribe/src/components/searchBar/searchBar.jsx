@@ -28,19 +28,21 @@ const SearchBar = ({
 
   return (
     <div className="header__input-wrapper">
-      <input
-        className={`${className}`}
-        type="text"
-        placeholder="Search for a Book"
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-        onKeyDown={handleEnter}
-      />
-      <img
-        className={`icon ${iconClassOverride}`}
-        src={search}
-        onClick={doSearch}
-      />
+      <div className="searchbar-wrapper">
+        <input
+          className={`${className}`}
+          type="text"
+          placeholder="Search for a Book"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          onKeyDown={handleEnter}
+        />
+        <img
+          className={`icon ${iconClassOverride}`}
+          src={search}
+          onClick={doSearch}
+        />
+      </div>
     </div>
   );
 };
