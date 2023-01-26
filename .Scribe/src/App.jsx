@@ -8,6 +8,7 @@ import Header from "../src/components/header/header";
 
 function App() {
   const searchClass = styles.inputWrapper;
+
   const [searchTerm, setSearchTerm] = useState("");
   const [isSearchStarted, setisSearchStarted] = useState(false);
   const [books, setBooks] = useState([]);

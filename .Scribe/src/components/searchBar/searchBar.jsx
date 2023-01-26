@@ -12,8 +12,12 @@ const SearchBar = ({
   iconClassOverride,
 }) => {
   const doSearch = () => {
-    setisSearchStarted(true);
-    searchBooks(searchTerm);
+    if (searchTerm) {
+      setisSearchStarted(true);
+      searchBooks(searchTerm);
+    } else {
+      alert("Please enter something to search for");
+    }
   };
 
   const handleEnter = (event) => {
