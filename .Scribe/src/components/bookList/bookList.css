@@ -110,43 +110,44 @@
     transform: scale(0.95);
   }
 }
-@media screen and (min-width: 550px) and (max-width: 1100px) {
+@media screen and (min-width: 550px) and (max-width: 1200px) {
   .section__grid {
     grid-template-columns: 1fr;
   }
 }
-@media screen and (min-width: 1100px) and (max-width: 1200px) {
+@media screen and (min-width: 1200px) and (max-width: 1385px) {
   .section__grid {
     grid-template-columns: 1fr 1fr;
+    margin: 0.7rem 5rem;
   }
 }
-@media screen and (min-width: 1200px) and (max-width: 1300px) {
+@media screen and (min-width: 1385px) and (max-width: 1500px) {
   .section__grid {
     grid-template-columns: 1fr 1fr;
-  }
-}
-@media screen and (min-width: 1300px) and (max-width: 1350px) {
-  .section__grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-@media screen and (min-width: 1350px) and (max-width: 1400px) and (max-height: 800px) {
-  .section__grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-@media screen and (min-width: 1350px) and (max-width: 1450px) and (min-height: 800px) {
-  .section__grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-@media screen and (min-width: 1450px) and (max-width: 1500px) {
-  .section__grid {
-    grid-template-columns: 1fr 1fr;
+    margin: 0.7rem 6.75rem;
   }
 }
 @media screen and (min-width: 1500px) and (max-width: 1550px) {
   .section__grid {
     grid-template-columns: 1fr 1fr;
+    margin: 0.7rem 7.75rem;
+  }
+}
+@media screen and (min-width: 1550px) and (max-width: 1600px) {
+  .section__grid {
+    grid-template-columns: 1fr 1fr;
+    margin: 0.7rem 8.5rem;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1700px) {
+  .section__grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0.7rem 5rem 0rem 6.5rem;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 2000px) {
+  .section__grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0.7rem 5rem 0rem 6.5rem;
   }
 }/*# sourceMappingURL=bookList.css.map */

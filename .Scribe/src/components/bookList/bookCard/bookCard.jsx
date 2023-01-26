@@ -1,3 +1,4 @@
+import "./bookCard.css";
 import { useState } from "react";
 
 const BookCard = ({ book, className }) => {
@@ -31,6 +32,7 @@ const BookCard = ({ book, className }) => {
             ? `By ${book.volumeInfo.authors[0]}`
             : "No Author"}
         </p>
+
         <p className={`card__description ${displayDesc ? "show" : "hide"}`}>
           Description: {book.volumeInfo.description}
         </p>
