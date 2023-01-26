@@ -5,12 +5,18 @@
 .display {
   display: block;
 }
+.header__input-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 0.25rem 0.5rem;
+}
 
 .icon {
   position: absolute;
-  right: 20%;
-  bottom: 2.5%;
-  transform: scale(1.2);
+  right: 20.25%;
+  bottom: 2.45%;
+  padding-bottom: 0.275rem;
+  transform: scale(1.25);
 }
 
 /* Media Queries */
@@ -19,9 +25,7 @@
   .header__input-wrapper {
     .icon {
       transform: scale(0.95);
-      right: 12.75%;
-      bottom: 3%;
-      padding-bottom: 0.05rem;
+      margin-right: -1.25rem !important;
     }
   }
 }
@@ -30,8 +34,7 @@
   .header__input-wrapper {
     .icon {
       transform: scale(0.95);
-      right: 12.75%;
-      bottom: 2.75%;
+      margin-right: -1.25rem !important;
     }
   }
 }
@@ -40,8 +43,7 @@
   .header__input-wrapper {
     .icon {
       transform: scale(0.99);
-      right: 15.25%;
-      bottom: 2.5%;
+      margin-right: -1rem !important;
     }
   }
 }
@@ -50,8 +52,8 @@
   .header__input-wrapper {
     .icon {
       transform: scale(0.99);
-      right: 18.5%;
-      bottom: 2.25%;
+      padding-bottom: 0.225rem;
+      margin-right: -0.45rem !important;
     }
   }
 }
