@@ -8,8 +8,9 @@ const SearchBar = ({
   isSearchStarted,
   setisSearchStarted,
   searchBooks,
-  className,
+  inputClassOverride,
   iconClassOverride,
+  className,
 }) => {
   const doSearch = () => {
     if (searchTerm) {

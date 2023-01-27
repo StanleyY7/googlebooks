@@ -6,7 +6,7 @@ import ScribeLogo from "../src/components/scribeLogo/scribe";
 import SearchBar from "../src/components/searchBar/searchBar";
 import Header from "../src/components/header/header";
 
-function App() {
+const App = () => {
   const searchClass = styles.inputWrapper;
 
   const [searchTerm, setSearchTerm] = useState("");
@@ -50,6 +50,6 @@ function App() {
       </div>
     </section>
   );
-}
+};
 
 export default App;
