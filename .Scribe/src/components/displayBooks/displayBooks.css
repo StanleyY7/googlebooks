@@ -16,15 +16,14 @@
   width: 100vw;
   background-color: #ececec;
   overflow: hidden;
-  display: block;
   color: black;
   overflow-x: hidden;
 }
 .section__content-container .card {
   display: grid;
   grid-template-columns: 1.5fr;
+  border: 2px solid transparent;
   background-color: white;
-  border: 2px groove black;
   height: 25rem;
   min-width: 28.5rem;
   text-align: center;
@@ -74,7 +73,7 @@
 
 .section__SearchBar--override {
   height: 2.5%;
-  width: 50%;
+  width: 45%;
   position: fixed;
   top: 1.25%;
   padding: 0.2rem 0.5rem;
@@ -407,8 +406,8 @@
     height: 897.5rem;
   }
   .icon--override {
-    top: 1.225% !important;
-    right: 3% !important;
+    top: 1.2% !important;
+    right: 2.8% !important;
     transform: scale(0.88) !important;
   }
   .section__SearchBar--override {
@@ -452,8 +451,8 @@
     height: 920rem;
   }
   .icon--override {
-    top: 1.45% !important;
-    right: 1% !important;
+    top: 1.5% !important;
+    right: 3% !important;
     transform: scale(0.99) !important;
   }
   .section__SearchBar--override {
@@ -474,8 +473,8 @@
     height: 943rem;
   }
   .icon--override {
-    top: 1.45% !important;
-    right: 1% !important;
+    top: 1.5% !important;
+    right: 2.5% !important;
     transform: scale(0.99) !important;
   }
   .section__SearchBar--override {
@@ -497,7 +496,7 @@
   }
   .icon--override {
     top: 1.45% !important;
-    right: 0.8% !important;
+    right: 2.4% !important;
     transform: scale(0.99) !important;
   }
   .section__SearchBar--override {
@@ -519,7 +518,7 @@
   }
   .icon--override {
     top: 1.45% !important;
-    right: 0.8% !important;
+    right: 2.2% !important;
     transform: scale(0.99) !important;
   }
   .section__SearchBar--override {
@@ -541,7 +540,7 @@
   }
   .icon--override {
     top: 1.45% !important;
-    right: 0.425% !important;
+    right: 2.2% !important;
     transform: scale(0.99) !important;
   }
   .section__SearchBar--override {
@@ -563,7 +562,7 @@
   }
   .icon--override {
     top: 1.45% !important;
-    right: 0.425% !important;
+    right: 2.4% !important;
     transform: scale(0.99) !important;
   }
   .section__SearchBar--override {
@@ -585,7 +584,7 @@
   }
   .icon--override {
     top: 1.45% !important;
-    right: 0.425% !important;
+    right: 2.5% !important;
     transform: scale(0.99) !important;
   }
   .section__SearchBar--override {
@@ -606,8 +605,8 @@
     height: 1070rem;
   }
   .icon--override {
-    top: 1.425% !important;
-    right: 0.75% !important;
+    top: 1.45% !important;
+    right: 2.9% !important;
     transform: scale(0.99) !important;
   }
   .section__SearchBar--override {
@@ -628,8 +627,8 @@
     height: 1070rem;
   }
   .icon--override {
-    top: 1.425% !important;
-    right: 0.625% !important;
+    top: 1.45% !important;
+    right: 2.75% !important;
     transform: scale(0.99) !important;
   }
   .section__SearchBar--override {
@@ -650,8 +649,8 @@
     height: 1070rem;
   }
   .icon--override {
-    top: 1.425% !important;
-    right: 0.6% !important;
+    top: 1.45% !important;
+    right: 2.75% !important;
     transform: scale(0.99) !important;
   }
   .section__SearchBar--override {
@@ -672,8 +671,8 @@
     height: 1070rem;
   }
   .icon--override {
-    top: 1.425% !important;
-    right: 0.35% !important;
+    top: 1.475% !important;
+    right: 2.65% !important;
     transform: scale(0.99) !important;
   }
   .section__SearchBar--override {
@@ -694,8 +693,8 @@
     height: 1070rem;
   }
   .icon--override {
-    top: 1.425% !important;
-    right: 0.65% !important;
+    top: 1.475% !important;
+    right: 3% !important;
     transform: scale(0.99) !important;
   }
   .section__SearchBar--override {
@@ -716,8 +715,8 @@
     height: 1070rem;
   }
   .icon--override {
-    top: 1.425% !important;
-    right: 0.6% !important;
+    top: 1.475% !important;
+    right: 3% !important;
     transform: scale(0.99) !important;
   }
   .section__SearchBar--override {
@@ -738,8 +737,8 @@
     height: 1070rem;
   }
   .icon--override {
-    top: 1.45% !important;
-    right: 0.55% !important;
+    top: 1.5% !important;
+    right: 2.9% !important;
     transform: scale(0.99) !important;
   }
   .section__SearchBar--override {
@@ -760,8 +759,8 @@
     height: 1070rem;
   }
   .icon--override {
-    top: 1.4% !important;
-    right: 0.375% !important;
+    top: 1.45% !important;
+    right: 2.9% !important;
     transform: scale(0.99) !important;
   }
   .section__SearchBar--override {
@@ -782,8 +781,8 @@
     height: 555rem;
   }
   .icon--override {
-    top: 1.35% !important;
-    right: 1.725% !important;
+    top: 1.5% !important;
+    right: 4.25% !important;
     transform: scale(0.99) !important;
   }
   .section__SearchBar--override {
@@ -805,8 +804,8 @@
     height: 555rem;
   }
   .icon--override {
-    top: 1.35% !important;
-    right: 1.6% !important;
+    top: 1.5% !important;
+    right: 4.15% !important;
     transform: scale(0.99) !important;
   }
   .section__SearchBar--override {
@@ -829,7 +828,7 @@
   }
   .icon--override {
     top: 1.35% !important;
-    right: 1.3% !important;
+    right: 4.15% !important;
     transform: scale(0.99) !important;
   }
   .section__SearchBar--override {
@@ -851,9 +850,9 @@
     height: 555rem;
   }
   .icon--override {
-    top: 1.3% !important;
-    right: 1.45% !important;
-    transform: scale(0.99) !important;
+    top: 1.65% !important;
+    right: 4.15% !important;
+    transform: scale(1.1) !important;
   }
   .section__SearchBar--override {
     right: -1.325%;
@@ -874,9 +873,9 @@
     height: 555rem;
   }
   .icon--override {
-    top: 1.325% !important;
-    right: 1.375% !important;
-    transform: scale(0.99) !important;
+    top: 1.65% !important;
+    right: 4.15% !important;
+    transform: scale(1.1) !important;
   }
   .section__SearchBar--override {
     right: -1.325%;
@@ -897,9 +896,9 @@
     height: 555rem;
   }
   .icon--override {
-    top: 1.3% !important;
-    right: 1.275% !important;
-    transform: scale(0.99) !important;
+    top: 1.75% !important;
+    right: 4.15% !important;
+    transform: scale(1.1) !important;
   }
   .section__SearchBar--override {
     right: -1.325%;
@@ -920,8 +919,8 @@
     height: 555rem;
   }
   .icon--override {
-    top: 1.2% !important;
-    right: 1.2% !important;
+    top: 1.75% !important;
+    right: 4% !important;
     transform: scale(0.99) !important;
   }
   .section__SearchBar--override {
@@ -946,8 +945,8 @@
     height: 555rem;
   }
   .icon--override {
-    top: 0.7% !important;
-    right: 1.2% !important;
+    top: 0.8% !important;
+    right: 4% !important;
     transform: scale(0.99) !important;
   }
   .section__SearchBar--override {
@@ -971,12 +970,13 @@
     height: 555rem;
   }
   .icon--override {
-    top: 1.3% !important;
-    right: 1.1% !important;
+    top: 1% !important;
+    right: 3.25% !important;
   }
   .section__SearchBar--override {
     right: -1.325%;
-    margin-right: 1rem;
+    top: 0.5%;
+    margin-right: 0.5rem;
   }
   .section__ScribeLogo {
     margin-left: 0.25rem;
@@ -994,11 +994,12 @@
   }
   .icon--override {
     top: 1.25% !important;
-    right: 0.8% !important;
+    right: 3.25% !important;
   }
   .section__SearchBar--override {
     right: -1.325%;
-    margin-right: 1rem;
+    top: 0.75%;
+    margin-right: 0.5rem;
   }
   .section__ScribeLogo {
     margin-left: 0.25rem;
@@ -1016,11 +1017,12 @@
   }
   .icon--override {
     top: 1.25% !important;
-    right: 0.8% !important;
+    right: 3.25% !important;
   }
   .section__SearchBar--override {
     right: -1.325%;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
+    top: 0.75%;
   }
   .section__ScribeLogo {
     margin-left: 0.25rem;
@@ -1037,11 +1039,12 @@
     height: 365rem;
   }
   .icon--override {
-    top: 1.25% !important;
-    right: 0.55% !important;
+    top: 1% !important;
+    right: 3.5% !important;
   }
   .section__SearchBar--override {
     right: -1.325%;
+    top: 0.5%;
     margin-right: 1rem;
   }
   .section__ScribeLogo {
@@ -1063,9 +1066,10 @@
   }
   .icon--override {
     top: 1.25% !important;
-    right: 0.55% !important;
+    right: 3.5% !important;
   }
   .section__SearchBar--override {
+    top: 0.75%;
     right: -1.325%;
     margin-right: 1rem;
   }
@@ -1088,10 +1092,11 @@
   }
   .icon--override {
     top: 1.25% !important;
-    right: 0.55% !important;
+    right: 3.3% !important;
   }
   .section__SearchBar--override {
     right: -1.325%;
+    top: 0.75%;
     margin-right: 1rem;
   }
   .section__ScribeLogo {
@@ -1113,10 +1118,11 @@
   }
   .icon--override {
     top: 1.25% !important;
-    right: 0.55% !important;
+    right: 3.25% !important;
   }
   .section__SearchBar--override {
     right: -1.325%;
+    top: 0.75%;
     margin-right: 1rem;
   }
   .section__ScribeLogo {

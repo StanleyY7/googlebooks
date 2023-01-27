@@ -59,13 +59,6 @@
   .header__input-wrapper {
     margin-top: -3.25rem;
   }
-  .header__input-wrapper input {
-    background-color: white;
-    font-size: 1.15rem;
-    border: none;
-    border-radius: 2rem;
-    color: black;
-  }
 }
 @media screen and (min-width: 450px) and (max-width: 500px) {
   .header__input-wrapper {
