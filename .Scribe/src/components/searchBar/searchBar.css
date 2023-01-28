@@ -9,7 +9,6 @@
 .header__input-wrapper {
   display: flex;
   justify-content: center;
-  padding: 0.25rem 0.5rem;
 }
 
 .icon {
@@ -18,7 +17,6 @@
 }
 
 .searchbar-wrapper {
-  position: relative;
   background-color: white;
   width: 286px;
   border-radius: 2rem;

@@ -49,6 +49,7 @@
   border-radius: 2rem;
   background-color: #fcf258;
   border: 2px solid #fcf258;
+
   font-weight: bold;
   cursor: default;
   position: fixed;
@@ -1356,7 +1357,7 @@
   }
   .icon--override {
     top: 1.1% !important;
-    right: 3.45% !important;
+    right: 3.15% !important;
     transform: scale(0.88) !important;
     margin-top: 0.25rem !important;
   }
@@ -1383,7 +1384,7 @@
   }
   .icon--override {
     top: 1.1% !important;
-    right: 3.45% !important;
+    right: 3.15% !important;
     transform: scale(0.88) !important;
   }
   .section__SearchBar--override {
@@ -1407,7 +1408,7 @@
   }
   .icon--override {
     top: 0.775% !important;
-    right: 3.45% !important;
+    right: 3.15% !important;
     transform: scale(0.88) !important;
   }
   .section__SearchBar--override {
@@ -1432,7 +1433,7 @@
   }
   .icon--override {
     top: 0.7% !important;
-    right: 3.45% !important;
+    right: 3.15% !important;
     transform: scale(0.88) !important;
   }
   .section__SearchBar--override {
@@ -1457,7 +1458,7 @@
   }
   .icon--override {
     top: 0.75% !important;
-    right: 3.45% !important;
+    right: 3.15% !important;
     transform: scale(0.88) !important;
   }
   .section__SearchBar--override {
@@ -1482,7 +1483,7 @@
   }
   .icon--override {
     top: 0.575% !important;
-    right: 3.45% !important;
+    right: 3.15% !important;
     transform: scale(0.88) !important;
   }
   .section__SearchBar--override {
@@ -3106,7 +3107,7 @@
 
 //
 
-@media screen and (min-width: 505px) and (max-width: 530px) {
+@media screen and (min-width: 505px) and (max-width: 530px) and (min-height: 0px) and (max-height: 250px) {
   .section__content-container-top {
     width: 117vw;
   }
@@ -3117,7 +3118,29 @@
     height: 968rem;
   }
   .icon--override {
-    top: 1.45% !important;
+    display: none;
+  }
+  .section__SearchBar--override {
+    display: none;
+  }
+  .section__ScribeLogo {
+    margin-top: 0.75rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 505px) and (max-width: 530px) and (min-height: 250px) and (max-height: 550px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -100.75rem;
+    height: 968rem;
+  }
+  .icon--override {
+    top: 2% !important;
     right: 2.4% !important;
     transform: scale(0.99) !important;
   }
@@ -3125,13 +3148,138 @@
     right: -3%;
   }
   .section__ScribeLogo {
+    margin-top: 1rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 505px) and (max-width: 530px) and (min-height: 550px) and (max-height: 780px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -100.75rem;
+    height: 968rem;
+  }
+  .icon--override {
+    top: 1.65% !important;
+    right: 2.4% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -3%;
+  }
+  .section__ScribeLogo {
+    margin-top: 1.15rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 505px) and (max-width: 530px) and (min-height: 780px) and (max-height: 1000px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -100.75rem;
+    height: 968rem;
+  }
+  .icon--override {
+    top: 1.35% !important;
+    right: 2.4% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -3%;
+    top: 1%;
+  }
+  .section__ScribeLogo {
+    margin-top: 1.25rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 505px) and (max-width: 530px) and (min-height: 1000px) and (max-height: 1100px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -100.75rem;
+    height: 968rem;
+  }
+  .icon--override {
+    top: 0.9% !important;
+    right: 2.4% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -3%;
+    top: 0.6%;
+  }
+  .section__ScribeLogo {
+    margin-top: 1.35rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 505px) and (max-width: 530px) and (min-height: 1100px) and (max-height: 1300px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -100.75rem;
+    height: 968rem;
+  }
+  .icon--override {
+    top: 0.8% !important;
+    right: 2.4% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -3%;
+    top: 0.5%;
+  }
+  .section__ScribeLogo {
+    margin-top: 1.45rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 505px) and (max-width: 530px) and (min-height: 1300px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -100.75rem;
+    height: 968rem;
+  }
+  .icon--override {
+    top: 0.75% !important;
+    right: 2.4% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -3%;
+    top: 0.5%;
+  }
+  .section__ScribeLogo {
+    margin-top: 1.6rem;
     margin-left: 0.25rem;
   }
 }
 
 //
 
-@media screen and (min-width: 530px) and (max-width: 550px) {
+@media screen and (min-width: 530px) and (max-width: 550px) and (min-height: 0px) and (max-height: 250px) {
   .section__content-container-top {
     width: 117vw;
   }
@@ -3142,7 +3290,29 @@
     height: 1017rem;
   }
   .icon--override {
-    top: 1.45% !important;
+    display: none;
+  }
+  .section__SearchBar--override {
+    display: none;
+  }
+  .section__ScribeLogo {
+    margin-top: 0.75rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 530px) and (max-width: 550px) and (min-height: 250px) and (max-height: 550px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -51rem;
+    height: 1017rem;
+  }
+  .icon--override {
+    top: 2% !important;
     right: 2.2% !important;
     transform: scale(0.99) !important;
   }
@@ -3150,11 +3320,139 @@
     right: -3%;
   }
   .section__ScribeLogo {
+    margin-top: 1rem;
     margin-left: 0.25rem;
   }
 }
 
-@media screen and (min-width: 550px) and (max-width: 600px) {
+@media screen and (min-width: 530px) and (max-width: 550px) and (min-height: 550px) and (max-height: 780px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -51rem;
+    height: 1017rem;
+  }
+  .icon--override {
+    top: 1.25% !important;
+    right: 2.2% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -3%;
+    top: 0.8%;
+  }
+  .section__ScribeLogo {
+    margin-top: 1rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 530px) and (max-width: 550px) and (min-height: 780px) and (max-height: 1000px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -51rem;
+    height: 1017rem;
+  }
+  .icon--override {
+    top: 1.15% !important;
+    right: 2.2% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -3%;
+    top: 0.7%;
+  }
+  .section__ScribeLogo {
+    margin-top: 1.15rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 530px) and (max-width: 550px) and (min-height: 1000px) and (max-height: 1100px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -51rem;
+    height: 1017rem;
+  }
+  .icon--override {
+    top: 1% !important;
+    right: 2.2% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -3%;
+    top: 0.7%;
+  }
+  .section__ScribeLogo {
+    margin-top: 1.35rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 530px) and (max-width: 550px) and (min-height: 1100px) and (max-height: 1300px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -51rem;
+    height: 1017rem;
+  }
+  .icon--override {
+    top: 0.8% !important;
+    right: 2.2% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -3%;
+    top: 0.6%;
+  }
+  .section__ScribeLogo {
+    margin-top: 1.45rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 530px) and (max-width: 550px) and (min-height: 1300px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: -51rem;
+    height: 1017rem;
+  }
+  .icon--override {
+    top: 0.725% !important;
+    right: 2.2% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -3%;
+    top: 0.5%;
+  }
+  .section__ScribeLogo {
+    margin-top: 1.6rem;
+    margin-left: 0.25rem;
+  }
+}
+
+//
+
+@media screen and (min-width: 550px) and (max-width: 600px) and (min-height: 0px) and (max-height: 250px) {
   .section__content-container-top {
     width: 117vw;
   }
@@ -3165,17 +3463,167 @@
     height: 1070rem;
   }
   .icon--override {
-    top: 1.45% !important;
+    display: none;
+  }
+  .section__SearchBar--override {
+    display: none;
+  }
+  .section__ScribeLogo {
+    margin-top: 0.75rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 600px) and (min-height: 250px) and (max-height: 550px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 0rem;
+    height: 1070rem;
+  }
+  .icon--override {
+    top: 1.85% !important;
     right: 2.2% !important;
     transform: scale(0.99) !important;
   }
   .section__SearchBar--override {
     right: -3%;
+    top: 1.25%;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 600px) and (min-height: 550px) and (max-height: 780px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 0rem;
+    height: 1070rem;
+  }
+  .icon--override {
+    top: 1.2% !important;
+    right: 2.2% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -3%;
+    top: 0.8%;
+  }
+  .section__ScribeLogo {
+    margin-top: 1.15rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 600px) and (min-height: 780px) and (max-height: 1000px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 0rem;
+    height: 1070rem;
+  }
+  .icon--override {
+    top: 1.15% !important;
+    right: 2.2% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -3%;
+    top: 0.8%;
   }
   .section__ScribeLogo {
     margin-left: 0.25rem;
   }
 }
+
+@media screen and (min-width: 550px) and (max-width: 600px) and (min-height: 1000px) and (max-height: 1100px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 0rem;
+    height: 1070rem;
+  }
+  .icon--override {
+    top: 0.9% !important;
+    right: 2.2% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -3%;
+    top: 0.6%;
+  }
+  .section__ScribeLogo {
+    margin-top: 1.35rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 600px) and (min-height: 1100px) and (max-height: 1300px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 0rem;
+    height: 1070rem;
+  }
+  .icon--override {
+    top: 0.8% !important;
+    right: 2.2% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -3%;
+    top: 0.6%;
+  }
+  .section__ScribeLogo {
+    margin-top: 1.45rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 600px) and (min-height: 1300px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 0rem;
+    height: 1070rem;
+  }
+  .icon--override {
+    top: 0.725% !important;
+    right: 2.2% !important;
+    transform: scale(0.99) !important;
+  }
+  .section__SearchBar--override {
+    right: -3%;
+    top: 0.5%;
+  }
+  .section__ScribeLogo {
+    margin-top: 1.6rem;
+    margin-left: 0.25rem;
+  }
+}
+
+//
 
 @media screen and (min-width: 600px) and (max-width: 650px) {
   .section__content-container-top {
@@ -3199,6 +3647,8 @@
     margin-left: 0.25rem;
   }
 }
+
+//
 
 @media screen and (min-width: 650px) and (max-width: 700px) {
   .section__content-container-top {
@@ -3679,7 +4129,9 @@
   }
 }
 
-@media screen and (min-width: 1900px) and (max-width: 2000px) {
+//
+
+@media screen and (min-width: 1900px) and (max-width: 2000px) and (max-width: 2100px) and (max-height: 425px) {
   .section__content-container-top {
     width: 117vw;
   }
@@ -3690,7 +4142,103 @@
     height: 365rem;
   }
   .icon--override {
-    top: 1% !important;
+    display: none;
+  }
+  .section__SearchBar--override {
+    display: none;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+    margin-top: 0.85rem;
+  }
+}
+
+@media screen and (min-width: 1900px) and (max-width: 2000px) and (max-width: 2100px) and (min-height: 425px) and (max-height: 605px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 0.5rem;
+    height: 365rem;
+  }
+  .icon--override {
+    top: 1.85% !important;
+    right: 3.5% !important;
+  }
+  .section__SearchBar--override {
+    right: -1.325%;
+    top: 1.15%;
+    margin-right: 1rem;
+  }
+  .section__ScribeLogo {
+    margin-top: 0.85rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 1900px) and (max-width: 2000px) and (max-width: 2100px) and (min-height: 605px) and (max-height: 1000px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 0.5rem;
+    height: 365rem;
+  }
+  .icon--override {
+    top: 1.4% !important;
+    right: 3.5% !important;
+  }
+  .section__SearchBar--override {
+    right: -1.325%;
+    top: 1%;
+    margin-right: 1rem;
+  }
+  .section__ScribeLogo {
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 1900px) and (max-width: 2000px) and (max-width: 2100px) and (min-height: 1000px) and (max-height: 1350px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 0.5rem;
+    height: 365rem;
+  }
+  .icon--override {
+    top: 0.9% !important;
+    right: 3.5% !important;
+  }
+  .section__SearchBar--override {
+    right: -1.325%;
+    top: 0.6%;
+    margin-right: 1rem;
+  }
+  .section__ScribeLogo {
+    margin-top: 1.35rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 1900px) and (max-width: 2000px) and (max-width: 2100px) and (min-height: 1350px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 0.5rem;
+    height: 365rem;
+  }
+  .icon--override {
+    top: 0.75% !important;
     right: 3.5% !important;
   }
   .section__SearchBar--override {
@@ -3699,11 +4247,14 @@
     margin-right: 1rem;
   }
   .section__ScribeLogo {
+    margin-top: 1.5rem;
     margin-left: 0.25rem;
   }
 }
 
-@media screen and (min-width: 2000px) and (max-width: 2100px) {
+//
+
+@media screen and (min-width: 2000px) and (max-width: 2100px) and (max-height: 425px) {
   .section__content-container-top {
     width: 117vw;
   }
@@ -3718,20 +4269,136 @@
     transform: scale(1.25);
   }
   .icon--override {
-    top: 1.25% !important;
-    right: 3.5% !important;
+    display: none;
   }
   .section__SearchBar--override {
-    top: 0.75%;
-    right: -1.325%;
-    margin-right: 1rem;
+    display: none;
   }
   .section__ScribeLogo {
+    margin-top: 0.85rem;
     margin-left: 0.25rem;
   }
 }
 
-@media screen and (min-width: 2100px) and (max-width: 2300px) {
+@media screen and (min-width: 2000px) and (max-width: 2100px) and (min-height: 425px) and (max-height: 605px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 2.5rem;
+    height: 405rem;
+  }
+
+  .card {
+    transform: scale(1.25);
+  }
+  .icon--override {
+    top: 2.25% !important;
+    right: 3.4% !important;
+  }
+  .section__SearchBar--override {
+    top: 1.5%;
+    right: -1.325%;
+    margin-right: 1rem;
+  }
+  .section__ScribeLogo {
+    margin-top: 1rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2100px) and (min-height: 605px) and (max-height: 1000px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 2.5rem;
+    height: 405rem;
+  }
+
+  .card {
+    transform: scale(1.25);
+  }
+  .icon--override {
+    top: 1.35% !important;
+    right: 3.4% !important;
+  }
+  .section__SearchBar--override {
+    top: 1%;
+    right: -1.325%;
+    margin-right: 1rem;
+  }
+  .section__ScribeLogo {
+    margin-top: 1.1rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2100px) and (min-height: 1000px) and (max-height: 1350px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 2.5rem;
+    height: 405rem;
+  }
+
+  .card {
+    transform: scale(1.25);
+  }
+  .icon--override {
+    top: 1% !important;
+    right: 3.4% !important;
+  }
+  .section__SearchBar--override {
+    top: 0.7%;
+    right: -1.325%;
+    margin-right: 1rem;
+  }
+  .section__ScribeLogo {
+    margin-top: 1.35rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2100px) and (min-height: 1350px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 2.5rem;
+    height: 405rem;
+  }
+
+  .card {
+    transform: scale(1.25);
+  }
+  .icon--override {
+    top: 0.9% !important;
+    right: 3.4% !important;
+  }
+  .section__SearchBar--override {
+    top: 0.6%;
+    right: -1.325%;
+    margin-right: 1rem;
+  }
+  .section__ScribeLogo {
+    margin-top: 1.45rem;
+    margin-left: 0.25rem;
+  }
+}
+
+//
+
+@media screen and (min-width: 2100px) and (max-width: 2300px) and (max-height: 425px) {
   .section__content-container-top {
     width: 117vw;
   }
@@ -3746,15 +4413,129 @@
     transform: scale(1.25);
   }
   .icon--override {
-    top: 1.25% !important;
+    display: none;
+  }
+  .section__SearchBar--override {
+    display: none;
+  }
+  .section__ScribeLogo {
+    margin-top: 0.85rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 2100px) and (max-width: 2300px) and (min-height: 425px) and (max-height: 605px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 2.5rem;
+    height: 454rem;
+  }
+
+  .card {
+    transform: scale(1.25);
+  }
+  .icon--override {
+    top: 1.75% !important;
     right: 3.3% !important;
   }
   .section__SearchBar--override {
     right: -1.325%;
-    top: 0.75%;
+    top: 1.25%;
     margin-right: 1rem;
   }
   .section__ScribeLogo {
+    margin-top: 1rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 2100px) and (max-width: 2300px) and (min-height: 605px) and (max-height: 1000px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 2.5rem;
+    height: 454rem;
+  }
+
+  .card {
+    transform: scale(1.25);
+  }
+  .icon--override {
+    top: 1.5% !important;
+    right: 3.3% !important;
+  }
+  .section__SearchBar--override {
+    right: -1.325%;
+    top: 1%;
+    margin-right: 1rem;
+  }
+  .section__ScribeLogo {
+    margin-top: 1.1rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 2100px) and (max-width: 2300px) and (min-height: 1000px) and (max-height: 1350px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 2.5rem;
+    height: 454rem;
+  }
+
+  .card {
+    transform: scale(1.25);
+  }
+  .icon--override {
+    top: 1% !important;
+    right: 3.3% !important;
+  }
+  .section__SearchBar--override {
+    right: -1.325%;
+    top: 0.7%;
+    margin-right: 1rem;
+  }
+  .section__ScribeLogo {
+    margin-top: 1.4rem;
+    margin-left: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 2100px) and (max-width: 2300px) and (min-height: 1350px) {
+  .section__content-container-top {
+    width: 117vw;
+  }
+  .section__content-container {
+    min-width: 102.5vw;
+    padding: 1.25rem;
+    margin-top: 2.5rem;
+    height: 454rem;
+  }
+
+  .card {
+    transform: scale(1.25);
+  }
+  .icon--override {
+    top: 0.95% !important;
+    right: 3.3% !important;
+  }
+  .section__SearchBar--override {
+    right: -1.325%;
+    top: 0.7%;
+    margin-right: 1rem;
+  }
+  .section__ScribeLogo {
+    margin-top: 1.45rem;
     margin-left: 0.25rem;
   }
 }

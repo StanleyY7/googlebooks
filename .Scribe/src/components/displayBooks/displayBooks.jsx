@@ -33,7 +33,6 @@ const DisplayBooks = ({
           <BookList books={books} className="card" />
         </div>
       </div>
-
       <div className="section__content-container-top">
         <ScribeLogo
           className="section__ScribeLogo"

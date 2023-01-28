@@ -8,6 +8,8 @@
 
 .header__input-wrapper {
   margin-top: -4rem;
+  display: flex;
+  justify-content: center;
 
   input {
     background-color: white;
