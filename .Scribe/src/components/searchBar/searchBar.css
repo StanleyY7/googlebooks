@@ -60,12 +60,20 @@ input {
   .searchbar-wrapper {
     width: 241px;
   }
+  input {
+    padding-top: -2rem;
+    height: 50%;
+  }
   .header__input-wrapper .icon {
     padding-top: 0.2rem;
     transform: scale(1.15);
   }
 }
 @media screen and (min-width: 410px) and (max-width: 450px) {
+  input {
+    padding-top: -2rem;
+    height: 50%;
+  }
   .header__input-wrapper .icon {
     transform: scale(1.15);
     padding-top: 0.2rem;
