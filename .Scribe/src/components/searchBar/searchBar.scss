@@ -14,12 +14,15 @@
 .icon {
   transform: scale(1.25);
   padding-bottom: 0.05rem;
+  align-self: center;
 }
 
 .searchbar-wrapper {
   background-color: white;
-  width: 286px;
+  width: 290px;
   border-radius: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 input {
@@ -34,13 +37,9 @@ input {
     margin-top: 1rem;
   }
 
-  input {
-    padding-top: -2rem;
-    height: 50%;
-  }
   .icon {
-    padding-top: 0.2rem;
-    transform: scale(1.15);
+    padding-bottom: 0.3rem;
+    transform: scale(1);
   }
 }
 
@@ -49,43 +48,35 @@ input {
     width: 224px;
     margin-top: 1rem;
   }
-  input {
-    padding-top: -2rem;
-    height: 50%;
-  }
 
   .icon {
-    padding-top: 0.2rem;
-    transform: scale(1.15);
+    padding-bottom: 0.3rem;
+    transform: scale(1.1);
   }
 }
 
 @media screen and (min-width: 350px) and (max-width: 410px) {
   .searchbar-wrapper {
-    width: 241px;
+    width: 243px;
   }
 
-  input {
-    padding-top: -2rem;
-    height: 50%;
-  }
   .header__input-wrapper {
     .icon {
-      padding-top: 0.2rem;
-      transform: scale(1.15);
+      padding-bottom: 0.3rem;
+      transform: scale(1.1);
     }
   }
 }
 
 @media screen and (min-width: 410px) and (max-width: 450px) {
-  input {
-    padding-top: -2rem;
-    height: 50%;
+  .searchbar-wrapper {
+    width: 241px;
   }
+
   .header__input-wrapper {
     .icon {
-      transform: scale(1.15);
-      padding-top: 0.2rem;
+      transform: scale(1.1);
+      padding-bottom: 0.3rem;
     }
   }
 }
