@@ -13,7 +13,9 @@
 
 .icon {
   transform: scale(1.25);
-  padding-bottom: 0.05rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.25rem;
+
   align-self: center;
 }
 
@@ -69,10 +71,6 @@ input {
 }
 
 @media screen and (min-width: 410px) and (max-width: 450px) {
-  .searchbar-wrapper {
-    width: 241px;
-  }
-
   .header__input-wrapper {
     .icon {
       transform: scale(1.1);
