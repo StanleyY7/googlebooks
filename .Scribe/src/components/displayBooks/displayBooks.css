@@ -5,8 +5,8 @@
 }
 
 .grid-wrapper {
-  display: flex;
-  justify-content: center;
+  display: flex !important;
+  justify-content: center !important;
 }
 
 .section__content-container {
