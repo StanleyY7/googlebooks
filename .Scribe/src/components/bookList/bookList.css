@@ -27,50 +27,42 @@
 @media screen and (max-width: 295px) {
   .section__grid {
     grid-template-columns: 1fr;
-    transform: scale(0.7);
     margin-bottom: 2rem;
   }
 }
 @media screen and (min-width: 295px) and (max-width: 311px) {
   .section__grid {
     grid-template-columns: 1fr;
-    transform: scale(0.75);
   }
 }
 @media screen and (min-width: 311px) and (max-width: 325px) {
   .section__grid {
     grid-template-columns: 1fr;
-    transform: scale(0.75);
   }
 }
 @media screen and (min-width: 325px) and (max-width: 335px) {
   .section__grid {
     grid-template-columns: 1fr;
-    transform: scale(0.75);
   }
 }
 @media screen and (min-width: 335px) and (max-width: 350px) {
   .section__grid {
     grid-template-columns: 1fr;
-    transform: scale(0.8);
   }
 }
 @media screen and (min-width: 350px) and (max-width: 359px) {
   .section__grid {
     grid-template-columns: 1fr;
-    transform: scale(0.8);
   }
 }
 @media screen and (min-width: 359px) and (max-width: 380px) {
   .section__grid {
     grid-template-columns: 1fr;
-    transform: scale(0.8);
   }
 }
 @media screen and (min-width: 380px) and (max-width: 395px) {
   .section__grid {
     grid-template-columns: 1fr;
-    transform: scale(0.825);
   }
 }
 @media screen and (min-width: 395px) and (max-width: 450px) {
@@ -163,7 +155,7 @@
 }
 @media screen and (min-width: 2300px) {
   .section__grid {
-    margin: 2.5rem 5rem 0rem 21rem;
-    gap: 18rem;
+    margin: 0.5rem 5rem 0rem 14rem;
+    gap: 10rem;
   }
 }/*# sourceMappingURL=bookList.css.map */
