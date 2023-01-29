@@ -21,17 +21,28 @@ const App = () => {
     console.log(data.items);
     setBooks(data.items);
   };
+
+  const doSearch = () => {
+    if (searchTerm) {
+      setisSearchStarted(true);
+      searchBooks(searchTerm);
+    } else {
+      alert("Please enter something to search for");
+    }
+  };
+
   return (
     <section>
-      <Header
-        isSearchStarted={isSearchStarted}
-        books={books}
-        setBooks={setBooks}
-        searchTerm={searchTerm}
-        setisSearchStarted={setisSearchStarted}
-        setSearchTerm={setSearchTerm}
-        searchBooks={searchBooks}
-      />
+      {isSearchStarted && books.length > 0 && (
+        <Header
+          books={books}
+          searchTerm={searchTerm}
+          setisSearchStarted={setisSearchStarted}
+          setSearchTerm={setSearchTerm}
+          doSearch={doSearch}
+        />
+      )}
+
       <div
         className={`header__content-wrapper ${
           isSearchStarted ? "hide" : "display"
@@ -43,9 +54,7 @@ const App = () => {
           className={searchClass}
           searchTerm={searchTerm}
           setSearchTerm={setSearchTerm}
-          isSearchStarted={isSearchStarted}
-          setisSearchStarted={setisSearchStarted}
-          searchBooks={searchBooks}
+          doSearch={doSearch}
         />
       </div>
     </section>

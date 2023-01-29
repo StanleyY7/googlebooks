@@ -4,6 +4,7 @@ import { useState } from "react";
 const BookCard = ({ book, className }) => {
   const [displayDesc, setDisplayDesc] = useState(false);
   const checkDisplayDesc = displayDesc ? "hide" : "show";
+  const oppositeCheckDisplayDesc = displayDesc ? "show" : "hide";
 
   const setDisplayDescTrue = () => {
     setDisplayDesc(true);
@@ -33,7 +34,7 @@ const BookCard = ({ book, className }) => {
             : "No Author"}
         </p>
 
-        <p className={`card__description ${displayDesc ? "show" : "hide"}`}>
+        <p className={`card__description ${oppositeCheckDisplayDesc}`}>
           Description: {book.volumeInfo.description}
         </p>
       </div>

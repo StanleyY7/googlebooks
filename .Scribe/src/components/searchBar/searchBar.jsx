@@ -5,28 +5,15 @@ import search from "../../assets/search.png";
 const SearchBar = ({
   searchTerm,
   setSearchTerm,
-  isSearchStarted,
-  setisSearchStarted,
-  searchBooks,
-  inputClassOverride,
   iconClassOverride,
   className,
+  doSearch,
 }) => {
-  const doSearch = () => {
-    if (searchTerm) {
-      setisSearchStarted(true);
-      searchBooks(searchTerm);
-    } else {
-      alert("Please enter something to search for");
-    }
-  };
-
   const handleEnter = (event) => {
     if (event.key === "Enter") {
       doSearch();
     }
   };
-
   return (
     <div className="header__input-wrapper">
       <div className="searchbar-wrapper">
