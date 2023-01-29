@@ -76,19 +76,16 @@
 @media screen and (min-width: 395px) and (max-width: 450px) {
   .section__grid {
     grid-template-columns: 1fr;
-    transform: scale(0.825);
   }
 }
 @media screen and (min-width: 450px) and (max-width: 470px) {
   .section__grid {
     grid-template-columns: 1fr;
-    transform: scale(0.85);
   }
 }
 @media screen and (min-width: 470px) and (max-width: 505px) {
   .section__grid {
     grid-template-columns: 1fr;
-    transform: scale(0.875);
   }
 }
 @media screen and (min-width: 505px) and (max-width: 530px) {
