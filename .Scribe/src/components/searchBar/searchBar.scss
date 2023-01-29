@@ -14,14 +14,14 @@
 .icon {
   transform: scale(1.25);
   padding-bottom: 0.3rem;
-  padding-left: 0.25rem;
+  padding-right: 0.05rem;
 
   align-self: center;
 }
 
 .searchbar-wrapper {
   background-color: white;
-  width: 290px;
+  width: 289px;
   border-radius: 2rem;
   display: flex;
   justify-content: center;
@@ -47,25 +47,24 @@ input {
 
 @media screen and (min-width: 316px) and (max-width: 350px) {
   .searchbar-wrapper {
-    width: 224px;
+    width: 220px;
     margin-top: 1rem;
   }
-
   .icon {
     padding-bottom: 0.3rem;
-    transform: scale(1.1);
+    transform: scale(1);
   }
 }
 
 @media screen and (min-width: 350px) and (max-width: 410px) {
   .searchbar-wrapper {
-    width: 243px;
+    width: 241px;
   }
 
   .header__input-wrapper {
     .icon {
       padding-bottom: 0.3rem;
-      transform: scale(1.1);
+      transform: scale(1.05);
     }
   }
 }
