@@ -68,4 +68,31 @@
   top: 1.5%;
   left: 5%;
   transform: translate(-50%, -50%);
+}
+
+/* Media Queries */
+@media screen and (max-width: 400px) {
+  .card__modal {
+    zoom: 0.75;
+  }
+}
+@media screen and (min-width: 1601px) and (max-width: 1800px) {
+  .card__modal {
+    zoom: 1.1;
+  }
+}
+@media screen and (min-width: 1800px) and (max-width: 2100px) {
+  .card__modal {
+    zoom: 1.2;
+  }
+}
+@media screen and (min-width: 2100px) and (max-width: 2300px) {
+  .card__modal {
+    zoom: 1.45;
+  }
+}
+@media screen and (min-width: 2300px) {
+  .card__modal {
+    zoom: 1.7;
+  }
 }/*# sourceMappingURL=bookCard.css.map */
