@@ -4,16 +4,11 @@ import { useState, useEffect } from "react";
 import SearchBar from "../searchBar/searchBar";
 import BookList from "../bookList/BookList";
 
-const DisplayBooks = ({
-  books,
-  setisSearchStarted,
-  searchTerm,
-  setSearchTerm,
-  isSearchStarted,
-  searchBooks,
-}) => {
+const DisplayBooks = ({ setisSearchStarted, books, setBooks }) => {
   const [display, setDisplay] = useState(true);
+
   let iconClassOverride = "icon--override";
+
   const HideBooks = () => {
     setDisplay(!display);
   };
@@ -45,12 +40,9 @@ const DisplayBooks = ({
       <div className="section__SearchBar">
         <SearchBar
           className="section__SearchBar--override"
-          searchTerm={searchTerm}
-          setSearchTerm={setSearchTerm}
-          isSearchStarted={isSearchStarted}
-          setisSearchStarted={setisSearchStarted}
-          searchBooks={searchBooks}
           iconClassOverride={iconClassOverride}
+          setisSearchStarted={setisSearchStarted}
+          setBooks={setBooks}
         />
       </div>
     </section>

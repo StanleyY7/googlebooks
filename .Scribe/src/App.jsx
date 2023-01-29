@@ -8,30 +8,18 @@ import Header from "../src/components/header/header";
 
 const App = () => {
   const searchClass = styles.inputWrapper;
-
-  const [searchTerm, setSearchTerm] = useState("");
   const [isSearchStarted, setisSearchStarted] = useState(false);
   const [books, setBooks] = useState([]);
-
-  const searchBooks = async (searchTerm) => {
-    const response = await fetch(
-      `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}&maxResults=39`
-    );
-    const data = await response.json();
-    console.log(data.items);
-    setBooks(data.items);
-  };
   return (
     <section>
-      <Header
-        isSearchStarted={isSearchStarted}
-        books={books}
-        setBooks={setBooks}
-        searchTerm={searchTerm}
-        setisSearchStarted={setisSearchStarted}
-        setSearchTerm={setSearchTerm}
-        searchBooks={searchBooks}
-      />
+      {isSearchStarted && books.length > 0 && (
+        <Header
+          setisSearchStarted={setisSearchStarted}
+          books={books}
+          setBooks={setBooks}
+        />
+      )}
+
       <div
         className={`header__content-wrapper ${
           isSearchStarted ? "hide" : "display"
@@ -41,11 +29,8 @@ const App = () => {
 
         <SearchBar
           className={searchClass}
-          searchTerm={searchTerm}
-          setSearchTerm={setSearchTerm}
-          isSearchStarted={isSearchStarted}
+          setBooks={setBooks}
           setisSearchStarted={setisSearchStarted}
-          searchBooks={searchBooks}
         />
       </div>
     </section>
