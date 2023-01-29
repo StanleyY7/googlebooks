@@ -113,8 +113,11 @@
   .section__content-container {
     min-width: 110vw;
     padding: 1.25rem;
-    margin-top: -271rem;
-    height: 797rem;
+    margin-top: 1rem;
+    height: 725rem;
+  }
+  .card {
+    zoom: 0.65;
   }
   .section__SearchBar--override {
     display: none;
@@ -137,11 +140,14 @@
   .section__content-container {
     min-width: 110vw;
     padding: 1.25rem;
-    margin-top: -271rem;
-    height: 797rem;
+    margin-top: 1rem;
+    height: 725rem;
   }
   .section__SearchBar--override {
     margin-top: 0.3rem;
+  }
+  .card {
+    zoom: 0.65;
   }
   .icon--override {
     margin-top: 0.25rem !important;
@@ -164,8 +170,11 @@
   .section__content-container {
     min-width: 110vw;
     padding: 1.25rem;
-    margin-top: -271rem;
-    height: 797rem;
+    margin-top: 1rem;
+    height: 725rem;
+  }
+  .card {
+    zoom: 0.65;
   }
   .section__SearchBar--override {
     top: 1.25%;
@@ -189,8 +198,8 @@
   .section__content-container {
     min-width: 110vw;
     padding: 1.25rem;
-    margin-top: -271rem;
-    height: 797rem;
+    margin-top: 1rem;
+    height: 725rem;
   }
   .section__SearchBar--override {
     margin-top: -0.1rem;
@@ -200,6 +209,9 @@
     right: 4.15% !important;
     margin: -0.1rem !important;
     transform: scale(0.88) !important;
+  }
+  .card {
+    zoom: 0.65;
   }
   .section__ScribeLogo {
     margin-top: 1.35rem;
@@ -216,8 +228,8 @@
   .section__content-container {
     min-width: 110vw;
     padding: 1.25rem;
-    margin-top: -271rem;
-    height: 797rem;
+    margin-top: 1rem;
+    height: 725rem;
   }
   .section__SearchBar--override {
     margin-top: -0.25rem;
@@ -227,6 +239,9 @@
     right: 5% !important;
     margin: -0.25rem !important;
     transform: scale(0.88) !important;
+  }
+  .card {
+    zoom: 0.65;
   }
   .section__ScribeLogo {
     margin-top: 1.25rem;
@@ -243,8 +258,11 @@
   .section__content-container {
     min-width: 110vw;
     padding: 1.25rem;
-    margin-top: -271rem;
-    height: 797rem;
+    margin-top: 1rem;
+    height: 725rem;
+  }
+  .card {
+    zoom: 0.65;
   }
   .section__SearchBar--override {
     margin-top: -0.5rem;
@@ -270,8 +288,11 @@
   .section__content-container {
     min-width: 110vw;
     padding: 1.25rem;
-    margin-top: -271rem;
-    height: 797rem;
+    margin-top: 1rem;
+    height: 725rem;
+  }
+  .card {
+    zoom: 0.65;
   }
   .section__SearchBar--override {
     margin-top: -0.75rem;
@@ -287,9 +308,12 @@
     margin-left: 0.25rem;
   }
 }
-@media screen and (min-width: 295px) and (max-width: 316px) and (min-height: 0px) and (max-height: 250px) {
+@media screen and (min-width: 295px) and (max-width: 316px) and (max-height: 250px) {
   body {
     zoom: 0.8;
+  }
+  .card {
+    zoom: 0.7;
   }
   .section__content-container-top {
     width: 126vw;
@@ -297,8 +321,8 @@
   .section__content-container {
     min-width: 112vw;
     padding: 1.25rem;
-    margin-top: -232rem;
-    height: 835rem;
+    margin-top: 1rem;
+    height: 775rem;
   }
   .icon--override {
     display: none;
@@ -318,11 +342,14 @@
   .section__content-container-top {
     width: 126vw;
   }
+  .card {
+    zoom: 0.7;
+  }
   .section__content-container {
     min-width: 112vw;
     padding: 1.25rem;
-    margin-top: -232rem;
-    height: 835rem;
+    margin-top: 1rem;
+    height: 775rem;
   }
   .icon--override {
     margin-top: 0.25rem !important;
@@ -350,8 +377,11 @@
   .section__content-container {
     min-width: 112vw;
     padding: 1.25rem;
-    margin-top: -232rem;
-    height: 835rem;
+    margin-top: 1rem;
+    height: 775rem;
+  }
+  .card {
+    zoom: 0.7;
   }
   .icon--override {
     top: 1.3% !important;
@@ -376,8 +406,11 @@
   .section__content-container {
     min-width: 112vw;
     padding: 1.25rem;
-    margin-top: -232rem;
-    height: 835rem;
+    margin-top: 1rem;
+    height: 775rem;
+  }
+  .card {
+    zoom: 0.7;
   }
   .icon--override {
     top: 1.25% !important;
@@ -405,8 +438,11 @@
   .section__content-container {
     min-width: 112vw;
     padding: 1.25rem;
-    margin-top: -232rem;
-    height: 835rem;
+    margin-top: 1rem;
+    height: 775rem;
+  }
+  .card {
+    zoom: 0.7;
   }
   .icon--override {
     top: 1.2% !important;
@@ -434,8 +470,11 @@
   .section__content-container {
     min-width: 112vw;
     padding: 1.25rem;
-    margin-top: -232rem;
-    height: 835rem;
+    margin-top: 1rem;
+    height: 775rem;
+  }
+  .card {
+    zoom: 0.7;
   }
   .icon--override {
     top: 1.3% !important;
@@ -460,11 +499,14 @@
   .section__content-container-top {
     width: 126vw;
   }
+  .card {
+    zoom: 0.7;
+  }
   .section__content-container {
     min-width: 112vw;
     padding: 1.25rem;
-    margin-top: -232rem;
-    height: 835rem;
+    margin-top: 1rem;
+    height: 775rem;
   }
   .icon--override {
     top: 1.3% !important;
@@ -482,7 +524,7 @@
     margin-left: 0.25rem;
   }
 }
-@media screen and (min-width: 316px) and (max-width: 318px) and (min-height: 0px) and (max-height: 250px) {
+@media screen and (min-width: 316px) and (max-width: 318px) and (max-height: 250px) {
   body {
     zoom: 0.95;
   }
@@ -492,8 +534,11 @@
   .section__content-container {
     min-width: 112.5vw;
     padding: 1.25rem;
-    margin-top: -232.5rem;
-    height: 835rem;
+    margin-top: 0.5rem;
+    height: 775rem;
+  }
+  .card {
+    zoom: 0.7;
   }
   .icon--override {
     display: none;
@@ -516,8 +561,11 @@
   .section__content-container {
     min-width: 112.5vw;
     padding: 1.25rem;
-    margin-top: -232.5rem;
-    height: 835rem;
+    margin-top: 0.5rem;
+    height: 775rem;
+  }
+  .card {
+    zoom: 0.7;
   }
   .icon--override {
     margin-top: 0.25rem !important;
@@ -545,8 +593,11 @@
   .section__content-container {
     min-width: 112.5vw;
     padding: 1.25rem;
-    margin-top: -232.5rem;
-    height: 835rem;
+    margin-top: 0.5rem;
+    height: 775rem;
+  }
+  .card {
+    zoom: 0.7;
   }
   .icon--override {
     top: 1.25% !important;
@@ -571,14 +622,17 @@
   .section__content-container {
     min-width: 112.5vw;
     padding: 1.25rem;
-    margin-top: -232.5rem;
-    height: 835rem;
+    margin-top: 0.5rem;
+    height: 775rem;
   }
   .icon--override {
     top: 1.2% !important;
     right: 3.25% !important;
     transform: scale(0.88) !important;
     margin-top: -0.2rem !important;
+  }
+  .card {
+    zoom: 0.7;
   }
   .section__SearchBar--override {
     top: 1.5%;
@@ -600,8 +654,11 @@
   .section__content-container {
     min-width: 112.5vw;
     padding: 1.25rem;
-    margin-top: -232.5rem;
-    height: 835rem;
+    margin-top: 0.5rem;
+    height: 775rem;
+  }
+  .card {
+    zoom: 0.7;
   }
   .icon--override {
     top: 1.3275% !important;
@@ -629,14 +686,17 @@
   .section__content-container {
     min-width: 112.5vw;
     padding: 1.25rem;
-    margin-top: -232.5rem;
-    height: 835rem;
+    margin-top: 0.5rem;
+    height: 775rem;
   }
   .icon--override {
     top: 1.375% !important;
     right: 3.25% !important;
     transform: scale(0.88) !important;
     margin-top: -0.5rem !important;
+  }
+  .card {
+    zoom: 0.7;
   }
   .section__SearchBar--override {
     top: 1.5%;
@@ -658,8 +718,11 @@
   .section__content-container {
     min-width: 112.5vw;
     padding: 1.25rem;
-    margin-top: -232.5rem;
-    height: 835rem;
+    margin-top: 0.5rem;
+    height: 775rem;
+  }
+  .card {
+    zoom: 0.7;
   }
   .icon--override {
     top: 1.25% !important;
@@ -687,8 +750,11 @@
   .section__content-container {
     min-width: 110vw;
     padding: 1.25rem;
-    margin-top: -232.5rem;
-    height: 835rem;
+    margin-top: 0.5rem;
+    height: 775rem;
+  }
+  .card {
+    zoom: 0.7;
   }
   .icon--override {
     display: none;
@@ -701,7 +767,7 @@
     margin-left: 0.25rem;
   }
 }
-@media screen and (min-width: 318px) and (max-width: 325px) and (min-height: 250px) and (max-height: 550px) {
+@media screen and (min-width: 318px) and (max-width: 325px) and (max-height: 550px) {
   body {
     zoom: 0.95;
   }
@@ -711,8 +777,11 @@
   .section__content-container {
     min-width: 110vw;
     padding: 1.25rem;
-    margin-top: -232.5rem;
-    height: 835rem;
+    margin-top: 0.5rem;
+    height: 775rem;
+  }
+  .card {
+    zoom: 0.7;
   }
   .icon--override {
     top: 1.5% !important;
@@ -740,13 +809,16 @@
   .section__content-container {
     min-width: 110vw;
     padding: 1.25rem;
-    margin-top: -232.5rem;
-    height: 835rem;
+    margin-top: 0.5rem;
+    height: 775rem;
   }
   .icon--override {
     top: 1.6% !important;
     right: 3.25% !important;
     transform: scale(0.88) !important;
+  }
+  .card {
+    zoom: 0.7;
   }
   .section__SearchBar--override {
     top: 1.55%;
@@ -766,8 +838,11 @@
   .section__content-container {
     min-width: 110vw;
     padding: 1.25rem;
-    margin-top: -232.5rem;
-    height: 835rem;
+    margin-top: 0.5rem;
+    height: 775rem;
+  }
+  .card {
+    zoom: 0.7;
   }
   .icon--override {
     top: 1.3% !important;
@@ -792,8 +867,11 @@
   .section__content-container {
     min-width: 110vw;
     padding: 1.25rem;
-    margin-top: -232.5rem;
-    height: 835rem;
+    margin-top: 0.5rem;
+    height: 775em;
+  }
+  .card {
+    zoom: 0.7;
   }
   .icon--override {
     top: 1.3% !important;
@@ -818,11 +896,14 @@
   .section__content-container-top {
     width: 125vw;
   }
+  .card {
+    zoom: 0.7;
+  }
   .section__content-container {
     min-width: 110vw;
     padding: 1.25rem;
-    margin-top: -232.5rem;
-    height: 835rem;
+    margin-top: 0.5rem;
+    height: 775rem;
   }
   .icon--override {
     top: 1.3% !important;
@@ -847,11 +928,14 @@
   .section__content-container-top {
     width: 125vw;
   }
+  .card {
+    zoom: 0.7;
+  }
   .section__content-container {
     min-width: 110vw;
     padding: 1.25rem;
-    margin-top: -232.5rem;
-    height: 835rem;
+    margin-top: 0.5rem;
+    height: 775rem;
   }
   .icon--override {
     top: 1.3% !important;
@@ -879,8 +963,11 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -232.5rem;
-    height: 835rem;
+    margin-top: 0.5rem;
+    height: 775rem;
+  }
+  .card {
+    zoom: 0.7;
   }
   .icon--override {
     display: none;
@@ -903,8 +990,11 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -232.5rem;
-    height: 835rem;
+    margin-top: 0.5rem;
+    height: 775rem;
+  }
+  .card {
+    zoom: 0.7;
   }
   .icon--override {
     top: 1.375% !important;
@@ -932,8 +1022,11 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -232.5rem;
-    height: 835rem;
+    margin-top: 0.5rem;
+    height: 775rem;
+  }
+  .card {
+    zoom: 0.7;
   }
   .icon--override {
     top: 1.5% !important;
@@ -955,11 +1048,14 @@
   .section__content-container-top {
     width: 117vw;
   }
+  .card {
+    zoom: 0.7;
+  }
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -232.5rem;
-    height: 835rem;
+    margin-top: 0.5rem;
+    height: 775rem;
   }
   .icon--override {
     top: 1.15% !important;
@@ -981,11 +1077,14 @@
   .section__content-container-top {
     width: 117vw;
   }
+  .card {
+    zoom: 0.7;
+  }
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -232.5rem;
-    height: 835rem;
+    margin-top: 0.5rem;
+    height: 775rem;
   }
   .icon--override {
     top: 1.025% !important;
@@ -1005,14 +1104,17 @@
   body {
     zoom: 0.95;
   }
+  .card {
+    zoom: 0.7;
+  }
   .section__content-container-top {
     width: 117vw;
   }
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -232.5rem;
-    height: 835rem;
+    margin-top: 0.5rem;
+    height: 775rem;
   }
   .icon--override {
     top: 0.85% !important;
@@ -1038,13 +1140,16 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -232.5rem;
-    height: 835rem;
+    margin-top: 0.5rem;
+    height: 775rem;
   }
   .icon--override {
     top: 0.75% !important;
     right: 3.35% !important;
     transform: scale(0.88) !important;
+  }
+  .card {
+    zoom: 0.7;
   }
   .section__SearchBar--override {
     top: 0.75%;
@@ -1055,7 +1160,7 @@
     margin-left: 0.25rem;
   }
 }
-@media screen and (min-width: 335px) and (max-width: 350px) and (min-height: 0px) and (max-height: 250px) {
+@media screen and (min-width: 335px) and (max-width: 350px) and (max-height: 250px) {
   body {
     zoom: 0.95;
   }
@@ -1065,8 +1170,11 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -191.25rem;
-    height: 875rem;
+    margin-top: 1rem;
+    height: 825rem;
+  }
+  .card {
+    zoom: 0.75;
   }
   .icon--override {
     display: none;
@@ -1089,14 +1197,17 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -191.25rem;
-    height: 875rem;
+    margin-top: 1rem;
+    height: 825rem;
   }
   .icon--override {
     top: 1.5% !important;
     right: 3.5% !important;
     transform: scale(0.88) !important;
     margin-top: 0.25rem !important;
+  }
+  .card {
+    zoom: 0.75;
   }
   .section__SearchBar--override {
     top: 1.25%;
@@ -1118,8 +1229,8 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -191.25rem;
-    height: 875rem;
+    margin-top: 1rem;
+    height: 825rem;
   }
   .icon--override {
     top: 1.5% !important;
@@ -1129,6 +1240,9 @@
   .section__SearchBar--override {
     top: 1.4%;
     right: -3%;
+  }
+  .card {
+    zoom: 0.75;
   }
   .section__ScribeLogo {
     margin-top: 1.1rem;
@@ -1145,13 +1259,16 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -191.25rem;
-    height: 875rem;
+    margin-top: 1rem;
+    height: 825rem;
   }
   .icon--override {
     top: 1.215% !important;
     right: 3.5% !important;
     transform: scale(0.88) !important;
+  }
+  .card {
+    zoom: 0.75;
   }
   .section__SearchBar--override {
     top: 1.2%;
@@ -1172,13 +1289,16 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -191.25rem;
-    height: 875rem;
+    margin-top: 1rem;
+    height: 825rem;
   }
   .icon--override {
     top: 1.15% !important;
     right: 3.5% !important;
     transform: scale(0.88) !important;
+  }
+  .card {
+    zoom: 0.75;
   }
   .section__SearchBar--override {
     top: 1.1%;
@@ -1199,13 +1319,16 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -191.25rem;
-    height: 875rem;
+    margin-top: 1rem;
+    height: 825rem;
   }
   .icon--override {
     top: 0.925% !important;
     right: 3.5% !important;
     transform: scale(0.88) !important;
+  }
+  .card {
+    zoom: 0.75;
   }
   .section__SearchBar--override {
     top: 0.9%;
@@ -1226,13 +1349,16 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -191.25rem;
-    height: 875rem;
+    margin-top: 1rem;
+    height: 825rem;
   }
   .icon--override {
     top: 0.75% !important;
     right: 3.5% !important;
     transform: scale(0.88) !important;
+  }
+  .card {
+    zoom: 0.75;
   }
   .section__SearchBar--override {
     top: 0.75%;
@@ -1243,15 +1369,18 @@
     margin-left: 0.25rem;
   }
 }
-@media screen and (min-width: 350px) and (max-width: 380px) and (min-height: 0px) and (max-height: 250px) {
+@media screen and (min-width: 350px) and (max-width: 380px) and (max-height: 250px) {
   .section__content-container-top {
     width: 117vw;
   }
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -191.25rem;
-    height: 875rem;
+    margin-top: 1rem;
+    height: 825rem;
+  }
+  .card {
+    zoom: 0.75;
   }
   .icon--override {
     display: none;
@@ -1271,14 +1400,17 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -191.25rem;
-    height: 875rem;
+    margin-top: 1rem;
+    height: 825rem;
   }
   .icon--override {
     top: 1.5% !important;
     right: 3.15% !important;
     transform: scale(0.88) !important;
     margin-top: 0.25rem !important;
+  }
+  .card {
+    zoom: 0.75;
   }
   .section__SearchBar--override {
     top: 1.15%;
@@ -1297,13 +1429,16 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -191.25rem;
-    height: 875rem;
+    margin-top: 1rem;
+    height: 825rem;
   }
   .icon--override {
     top: 1.3% !important;
     right: 3.15% !important;
     transform: scale(0.88) !important;
+  }
+  .card {
+    zoom: 0.75;
   }
   .section__SearchBar--override {
     top: 1.25%;
@@ -1320,13 +1455,16 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -191.25rem;
-    height: 875rem;
+    margin-top: 1rem;
+    height: 825rem;
   }
   .icon--override {
     top: 1% !important;
     right: 3.15% !important;
     transform: scale(0.88) !important;
+  }
+  .card {
+    zoom: 0.75;
   }
   .section__SearchBar--override {
     top: 0.9%;
@@ -1344,13 +1482,16 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -191.25rem;
-    height: 875rem;
+    margin-top: 1rem;
+    height: 825rem;
   }
   .icon--override {
     top: 0.925% !important;
     right: 3.15% !important;
     transform: scale(0.88) !important;
+  }
+  .card {
+    zoom: 0.75;
   }
   .section__SearchBar--override {
     top: 0.85%;
@@ -1368,8 +1509,11 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -191.25rem;
-    height: 875rem;
+    margin-top: 1rem;
+    height: 825rem;
+  }
+  .card {
+    zoom: 0.75;
   }
   .icon--override {
     top: 0.95% !important;
@@ -1392,13 +1536,16 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -191.25rem;
-    height: 875rem;
+    margin-top: 1rem;
+    height: 825rem;
   }
   .icon--override {
     top: 0.75% !important;
     right: 3.15% !important;
     transform: scale(0.88) !important;
+  }
+  .card {
+    zoom: 0.75;
   }
   .section__SearchBar--override {
     top: 0.7%;
@@ -1409,15 +1556,18 @@
     margin-left: 0.25rem;
   }
 }
-@media screen and (min-width: 380px) and (max-width: 390px) and (min-height: 0px) and (max-height: 250px) {
+@media screen and (min-width: 380px) and (max-width: 390px) and (max-height: 250px) {
   .section__content-container-top {
     width: 117vw;
   }
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -169.75rem;
-    height: 897.5rem;
+    margin-top: 1rem;
+    height: 1070rem;
+  }
+  .card {
+    zoom: 0.8;
   }
   .icon--override {
     display: none;
@@ -1437,8 +1587,11 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -169.75rem;
-    height: 897.5rem;
+    margin-top: 1rem;
+    height: 1070rem;
+  }
+  .card {
+    zoom: 0.8;
   }
   .icon--override {
     top: 1.7% !important;
@@ -1463,13 +1616,16 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -169.75rem;
-    height: 897.5rem;
+    margin-top: 1rem;
+    height: 1070rem;
   }
   .icon--override {
     top: 1.4% !important;
     right: 3.15% !important;
     transform: scale(0.88) !important;
+  }
+  .card {
+    zoom: 0.8;
   }
   .section__SearchBar--override {
     top: 1.25%;
@@ -1486,13 +1642,16 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -169.75rem;
-    height: 897.5rem;
+    margin-top: 1rem;
+    height: 1070rem;
   }
   .icon--override {
     top: 0.95% !important;
     right: 3.15% !important;
     transform: scale(0.88) !important;
+  }
+  .card {
+    zoom: 0.8;
   }
   .section__SearchBar--override {
     top: 0.9%;
@@ -1509,13 +1668,16 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -169.75rem;
-    height: 897.5rem;
+    margin-top: 1rem;
+    height: 1070rem;
   }
   .icon--override {
     top: 0.95% !important;
     right: 3.15% !important;
     transform: scale(0.88) !important;
+  }
+  .card {
+    zoom: 0.8;
   }
   .section__SearchBar--override {
     top: 0.9%;
@@ -1533,13 +1695,16 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -169.75rem;
-    height: 897.5rem;
+    margin-top: 1rem;
+    height: 1070rem;
   }
   .icon--override {
     top: 0.85% !important;
     right: 3.15% !important;
     transform: scale(0.88) !important;
+  }
+  .card {
+    zoom: 0.8;
   }
   .section__SearchBar--override {
     top: 0.8%;
@@ -1557,13 +1722,16 @@
   .section__content-container {
     min-width: 102.5vw;
     padding: 1.25rem;
-    margin-top: -169.75rem;
-    height: 897.5rem;
+    margin-top: 1rem;
+    height: 1070rem;
   }
   .icon--override {
     top: 0.8% !important;
     right: 3.15% !important;
     transform: scale(0.88) !important;
+  }
+  .card {
+    zoom: 0.8;
   }
   .section__SearchBar--override {
     top: 0.7%;
@@ -1585,8 +1753,7 @@
     height: 1070rem;
   }
   .card {
-    width: 23.5rem;
-    height: 20.625rem;
+    zoom: 0.85;
   }
   .icon--override {
     display: none;
@@ -1615,8 +1782,7 @@
     transform: scale(0.88) !important;
   }
   .card {
-    width: 23.5rem;
-    height: 20.625rem;
+    zoom: 0.85;
   }
   .section__SearchBar--override {
     top: 1.5%;
@@ -1643,8 +1809,7 @@
     transform: scale(0.88) !important;
   }
   .card {
-    width: 23.5rem;
-    height: 20.625rem;
+    zoom: 0.85;
   }
   .section__SearchBar--override {
     top: 1.35%;
@@ -1671,8 +1836,7 @@
     transform: scale(0.88) !important;
   }
   .card {
-    width: 23.5rem;
-    height: 20.625rem;
+    zoom: 0.85;
   }
   .section__SearchBar--override {
     top: 1%;
@@ -1703,8 +1867,7 @@
     right: -3%;
   }
   .card {
-    width: 23.5rem;
-    height: 20.625rem;
+    zoom: 0.85;
   }
   .section__ScribeLogo {
     margin-top: 1.35rem;
@@ -1727,8 +1890,7 @@
     transform: scale(0.88) !important;
   }
   .card {
-    width: 23.5rem;
-    height: 20.625rem;
+    zoom: 0.85;
   }
   .section__SearchBar--override {
     top: 0.8%;
@@ -1755,8 +1917,7 @@
     transform: scale(0.88) !important;
   }
   .card {
-    width: 23.5rem;
-    height: 20.625rem;
+    zoom: 0.85;
   }
   .section__SearchBar--override {
     top: 0.625%;
@@ -7244,10 +7405,10 @@
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 2.5rem;
-    height: 570rem;
+    height: 625rem;
   }
   .card {
-    transform: scale(1.5);
+    zoom: 1.5;
   }
   .icon--override {
     display: none;
@@ -7268,10 +7429,10 @@
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 2.5rem;
-    height: 570rem;
+    height: 625rem;
   }
   .card {
-    transform: scale(1.5);
+    zoom: 1.5;
   }
   .icon--override {
     top: 2.15% !important;
@@ -7296,10 +7457,10 @@
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 2.5rem;
-    height: 570rem;
+    height: 625rem;
   }
   .card {
-    transform: scale(1.5);
+    zoom: 1.5;
   }
   .icon--override {
     top: 1.15% !important;
@@ -7323,10 +7484,7 @@
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 2.5rem;
-    height: 570rem;
-  }
-  .card {
-    transform: scale(1.5);
+    height: 625rem;
   }
   .icon--override {
     top: 0.925% !important;
@@ -7337,6 +7495,9 @@
     top: 0.6%;
     margin-right: 1rem;
     width: 10%;
+  }
+  .card {
+    zoom: 1.5;
   }
   .section__ScribeLogo {
     margin-top: 1.5rem;
@@ -7351,11 +7512,10 @@
     min-width: 102.5vw;
     padding: 1.25rem;
     margin-top: 2.5rem;
-    height: 570rem;
+    height: 625rem;
   }
   .card {
-    z-index: -0.5;
-    transform: scale(1.5);
+    zoom: 1.5;
   }
   .icon--override {
     top: 0.7% !important;
