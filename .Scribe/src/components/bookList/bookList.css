@@ -107,21 +107,18 @@
   .section__grid {
     grid-template-columns: 1fr 1fr;
     margin: 0.7rem 3.5rem;
-    zoom: 0.975;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1385px) and (min-height: 800px) {
   .section__grid {
     grid-template-columns: 1fr 1fr;
     margin: 0.7rem 5rem;
-    zoom: 0.975;
   }
 }
 @media screen and (min-width: 1385px) and (max-width: 1500px) {
   .section__grid {
     grid-template-columns: 1fr 1fr;
     margin: 0.7rem 6.75rem;
-    zoom: 0.94;
   }
 }
 @media screen and (min-width: 1500px) and (max-width: 1550px) {
@@ -131,14 +128,14 @@
     zoom: 0.95;
   }
 }
-@media screen and (min-width: 1550px) and (max-width: 1600px) {
+@media screen and (min-width: 1550px) and (max-width: 1599px) {
   .section__grid {
     grid-template-columns: 1fr 1fr;
     margin: 0.7rem 8.5rem;
     zoom: 0.975;
   }
 }
-@media screen and (min-width: 1600px) and (max-width: 1700px) {
+@media screen and (min-width: 1599px) and (max-width: 1700px) {
   .section__grid {
     margin: 0.7rem 5rem 0rem 6.5rem;
     zoom: 0.9;

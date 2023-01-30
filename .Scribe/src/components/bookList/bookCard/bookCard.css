@@ -12,9 +12,9 @@
 }
 
 .card__modal--background {
-  height: 130vh;
+  height: 250vh;
   overflow: hidden;
-  width: 150vw;
+  width: 250vw;
   background-color: rgba(0, 0, 0, 0.183);
   z-index: 200;
 }

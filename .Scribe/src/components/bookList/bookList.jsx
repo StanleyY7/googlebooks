@@ -6,7 +6,7 @@ const BookList = ({ books, className }) => {
     <div className="wrapper">
       <div className="section__grid">
         {books.map((book) => (
-          <BookCard book={book} className={className} />
+          <BookCard key={book.id} book={book} className={className} />
         ))}
       </div>
     </div>
