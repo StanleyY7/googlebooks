@@ -119,6 +119,8 @@
 @media screen and (min-width: 550px) and (max-width: 1200px) {
   .section__grid {
     grid-template-columns: 1fr;
+    margin-right: 1rem;
+    zoom: 0.975;
   }
 }
 
@@ -126,6 +128,7 @@
   .section__grid {
     grid-template-columns: 1fr 1fr;
     margin: 0.7rem 3.5rem;
+    zoom: 0.975;
   }
 }
 
@@ -133,6 +136,7 @@
   .section__grid {
     grid-template-columns: 1fr 1fr;
     margin: 0.7rem 5rem;
+    zoom: 0.975;
   }
 }
 
@@ -140,6 +144,7 @@
   .section__grid {
     grid-template-columns: 1fr 1fr;
     margin: 0.7rem 6.75rem;
+    zoom: 0.94;
   }
 }
 
@@ -147,6 +152,7 @@
   .section__grid {
     grid-template-columns: 1fr 1fr;
     margin: 0.7rem 7.75rem;
+    zoom: 0.95;
   }
 }
 
@@ -154,18 +160,28 @@
   .section__grid {
     grid-template-columns: 1fr 1fr;
     margin: 0.7rem 8.5rem;
+    zoom: 0.975;
   }
 }
 
 @media screen and (min-width: 1600px) and (max-width: 1700px) {
   .section__grid {
     margin: 0.7rem 5rem 0rem 6.5rem;
+    zoom: 0.9;
   }
 }
 
-@media screen and (min-width: 1700px) and (max-width: 2000px) {
+@media screen and (min-width: 1700px) and (max-width: 1800px) {
   .section__grid {
     margin: 0rem 5rem 0rem 6rem;
+    zoom: 0.9;
+  }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 2000px) {
+  .section__grid {
+    margin: 0rem 5rem 0rem 6rem;
+    zoom: 0.955;
   }
 }
 
@@ -173,6 +189,7 @@
   .section__grid {
     margin: 0.7rem 5rem 0rem 12rem;
     gap: 9rem;
+    zoom: 0.925;
   }
 }
 
@@ -180,6 +197,7 @@
   .section__grid {
     margin: 0.7rem 5rem 0rem 13rem;
     gap: 9rem;
+    zoom: 0.9;
   }
 }
 
@@ -187,5 +205,6 @@
   .section__grid {
     margin: 0.5rem 5rem 0rem 14rem;
     gap: 10rem;
+    zoom: 0.9;
   }
 }
