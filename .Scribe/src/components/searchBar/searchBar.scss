@@ -15,7 +15,7 @@
   transform: scale(1.25);
   padding-bottom: 0.275rem;
   padding-right: 0.08rem;
-
+  z-index: 300;
   align-self: center;
 }
 
@@ -30,6 +30,7 @@
 input {
   border: none;
   outline: none;
+  z-index: 300;
 }
 /* Media Queries */
 

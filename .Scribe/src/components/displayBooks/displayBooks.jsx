@@ -20,31 +20,33 @@ const DisplayBooks = ({ setisSearchStarted, books, setBooks }) => {
   }, [display]);
 
   return (
-    <section
-      className={`section__content-container ${!display ? "hide" : "show"}`}
-    >
-      <div className="grid-wrapper">
-        <div className="section__grid">
-          <BookList books={books} className="card" />
+    <section className="displayBooks__body">
+      <section
+        className={`section__content-container ${!display ? "hide" : "show"}`}
+      >
+        <div className="grid-wrapper">
+          <div className="section__grid">
+            <BookList books={books} className="card" />
+          </div>
         </div>
-      </div>
-      <div className="section__content-container-top">
-        <ScribeLogo
-          className="section__ScribeLogo"
-          onClick={HideBooks}
-          setDisplay={setDisplay}
-          display={display}
-        />
-      </div>
+        <div className="section__content-container-top">
+          <ScribeLogo
+            className="section__ScribeLogo"
+            onClick={HideBooks}
+            setDisplay={setDisplay}
+            display={display}
+          />
+        </div>
 
-      <div className="section__SearchBar">
-        <SearchBar
-          className="section__SearchBar--override"
-          iconClassOverride={iconClassOverride}
-          setisSearchStarted={setisSearchStarted}
-          setBooks={setBooks}
-        />
-      </div>
+        <div className="section__SearchBar">
+          <SearchBar
+            className="section__SearchBar--override"
+            iconClassOverride={iconClassOverride}
+            setisSearchStarted={setisSearchStarted}
+            setBooks={setBooks}
+          />
+        </div>
+      </section>
     </section>
   );
 };

@@ -8,6 +8,7 @@ import Header from "../src/components/header/header";
 
 const App = () => {
   const searchClass = styles.inputWrapper;
+  const fillerClass = styles.filler;
   const [isSearchStarted, setisSearchStarted] = useState(false);
   const [books, setBooks] = useState([]);
   return (
@@ -33,6 +34,9 @@ const App = () => {
           setisSearchStarted={setisSearchStarted}
         />
       </div>
+      <div
+        className={`${fillerClass} ${isSearchStarted ? "hide" : "display"}`}
+      ></div>
     </section>
   );
 };
