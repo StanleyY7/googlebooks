@@ -16,6 +16,8 @@ Below are the website designs/wireframes I created in Canva for the initial view
 ### My Version
 
 ![scribeMain](https://user-images.githubusercontent.com/119549394/214832163-cecc8879-5694-4638-b7e7-c65ffeecddd5.PNG)
+![myVersion](https://user-images.githubusercontent.com/119549394/215605330-3f0b8055-b0a2-4ad1-a680-7d025b08f4e8.PNG)
+![myVersionModal](https://user-images.githubusercontent.com/119549394/215605343-1673bcfc-f0ad-4669-8fc5-06f8380359b4.PNG)
 
 ## MVP   
 
@@ -34,6 +36,8 @@ More specifically the grid of books should:
 - Async/await is to be used for the request code, NOT .then
 
 ## Summary
+
+I met the above requirements by first creating a website wireframe/design, then I worked on the MVP requirements. I then worked on media queries for the website layout itself. After that I then added bonus features such as a modal opening upon clicking of a card and did the appropriate media queries for that as well. The main challenges experienced were managing state (figuring out which state to use and where, making the use of state concise where possible) and media queries for different components (as media queries can overlap/overwrite for the same component).
 
 ## Tech Stack
 
