@@ -12,14 +12,18 @@ const SearchBar = ({
 
   const doSearch = () => {
     if (searchTerm) {
-      setisSearchStarted(true);
       const searchBooks = async (searchTerm) => {
         const response = await fetch(
           `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}&maxResults=39`
         );
         const data = await response.json();
         console.log(data.items);
-        setBooks(data.items);
+        if (data.items) {
+          setisSearchStarted(true);
+          setBooks(data.items);
+        } else if (!data.items || data.items === 0) {
+          alert("No results found");
+        }
       };
       searchBooks(searchTerm);
     } else {
