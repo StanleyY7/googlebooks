@@ -3,7 +3,7 @@ import DisplayBooks from "../displayBooks/displayBooks";
 
 const Header = ({ setisSearchStarted, books, setBooks }) => {
   return (
-    <header>
+    <header className="test">
       <DisplayBooks
         setisSearchStarted={setisSearchStarted}
         books={books}
