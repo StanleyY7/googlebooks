@@ -14,7 +14,7 @@
 .icon {
   transform: scale(1.25);
   padding-bottom: 0.275rem;
-  padding-right: 0.09rem;
+  padding-right: 0.08rem;
   z-index: 300;
   align-self: center;
 }
@@ -55,36 +55,55 @@ input {
 @media screen and (min-width: 350px) and (max-width: 410px) {
   .searchbar-wrapper {
     width: 192.5px;
+    margin-left: 2.75rem;
   }
-  .header__input-wrapper .icon {
+  .icon {
     padding-bottom: 0.3rem;
     transform: scale(1.05);
+    -webkit-padding-end: 2.75rem;
+            padding-inline-end: 2.75rem;
   }
 }
 @media screen and (min-width: 410px) and (max-width: 450px) {
   .searchbar-wrapper {
     width: 195px;
+    margin-left: 2.5rem;
   }
-  .header__input-wrapper .icon {
+  .icon {
     transform: scale(1.1);
     padding-bottom: 0.3rem;
+    -webkit-padding-end: 2.5rem;
+            padding-inline-end: 2.5rem;
   }
 }
 @media screen and (min-width: 450px) and (max-width: 500px) {
   .searchbar-wrapper {
     width: 195px;
+    margin-left: 2rem;
   }
-  .header__input-wrapper .icon {
+  .icon {
     transform: scale(1.15);
+    -webkit-padding-end: 2rem;
+            padding-inline-end: 2rem;
   }
 }
 @media screen and (min-width: 500px) and (max-width: 900px) {
   .searchbar-wrapper {
     width: 195px;
+    margin-left: 2rem;
+  }
+  .icon {
+    -webkit-padding-end: 2rem;
+            padding-inline-end: 2rem;
   }
 }
 @media screen and (min-width: 900px) and (max-width: 1455px) {
   .searchbar-wrapper {
     width: 210px;
+    margin-left: 2rem;
+  }
+  .icon {
+    -webkit-padding-end: 2rem;
+            padding-inline-end: 2rem;
   }
 }/*# sourceMappingURL=searchBar.css.map */
