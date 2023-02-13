@@ -1062,7 +1062,7 @@
     min-width: 122.5vw;
     padding: 1.25rem;
     margin-top: 0.5rem;
-    height: 490rem;
+    height: 1020rem;
   }
   .section__SearchBar--override {
     position: static;
@@ -1089,7 +1089,7 @@
     min-width: 122vw;
     padding: 1.25rem;
     margin-top: 0.5rem;
-    height: 490rem;
+    height: 1020rem;
   }
   .section__SearchBar--override {
     position: static;
@@ -1347,7 +1347,7 @@
 
 //
 
-@media screen and (min-width: 1700px) and (max-width: 1900px) {
+@media screen and (min-width: 1700px) and (max-width: 1800px) {
   body {
     zoom: 0.8;
   }
@@ -1362,6 +1362,35 @@
     padding: 1.25rem;
     margin-top: 0.5rem;
     height: 400rem;
+  }
+
+  .section__SearchBar--override {
+    position: static;
+    width: 100%;
+  }
+
+  .icon--override {
+    position: static;
+    padding-right: 0.1rem;
+    padding-bottom: 0.35rem;
+  }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 1900px) {
+  body {
+    zoom: 0.8;
+  }
+  .card {
+    zoom: 1.4;
+  }
+  .section__content-container-top {
+    width: 100%;
+  }
+  .section__content-container {
+    width: 146rem;
+    padding: 1.25rem;
+    margin-top: 0.5rem;
+    height: 455rem;
   }
 
   .section__SearchBar--override {

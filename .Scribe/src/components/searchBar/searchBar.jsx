@@ -32,26 +32,26 @@ const SearchBar = ({
   };
 
   const handleEnter = (event) => {
-    if (event.key === "Enter") {
-      doSearch();
-    }
+    doSearch();
+    event.preventDefault();
   };
   return (
     <div className="header__input-wrapper">
-      <div className="searchbar-wrapper">
-        <input
-          className={`${className}`}
-          type="text"
-          placeholder="Search for a Book"
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-          onKeyDown={handleEnter}
-        />
-        <img
-          className={`icon ${iconClassOverride}`}
-          src={search}
-          onClick={doSearch}
-        />
+      <div>
+        <form className="searchbar-wrapper" onSubmit={handleEnter}>
+          <input
+            className={`${className}`}
+            type="text"
+            placeholder="Search for a Book"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+          <img
+            className={`icon ${iconClassOverride}`}
+            src={search}
+            onClick={doSearch}
+          />
+        </form>
       </div>
     </div>
   );
