@@ -1,4 +1,4 @@
-import "./bookCard.css";
+import "./bookCard.scss";
 import { useState, useEffect } from "react";
 
 const BookCard = ({ book, className }) => {

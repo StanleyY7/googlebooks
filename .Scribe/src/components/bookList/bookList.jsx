@@ -1,4 +1,4 @@
-import "./bookList.css";
+import "./bookList.scss";
 import BookCard from "./bookCard/bookCard";
 
 const BookList = ({ books, className }) => {

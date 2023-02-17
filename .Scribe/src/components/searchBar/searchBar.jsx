@@ -1,6 +1,9 @@
 import { useState } from "react";
-import "./searchBar.css";
+
+import "./searchBar.scss";
 import search from "../../assets/search.png";
+
+import { doSearch } from "../../services/general";
 
 const SearchBar = ({
   iconClassOverride,
@@ -10,32 +13,12 @@ const SearchBar = ({
 }) => {
   const [searchTerm, setSearchTerm] = useState("");
 
-  const doSearch = () => {
-    if (searchTerm) {
-      const searchBooks = async (searchTerm) => {
-        const response = await fetch(
-          `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}&maxResults=39`
-        );
-        const data = await response.json();
-        console.log(data.items);
-        if (data.items) {
-          setisSearchStarted(true);
-          setBooks(data.items);
-        } else if (!data.items || data.items === 0) {
-          alert("No results found");
-        }
-      };
-      searchBooks(searchTerm);
-    } else {
-      alert("Please enter something to search for");
+  const handleEnter = (event) => {
+    if (event.key === "Enter") {
+      doSearch(searchTerm, setBooks, setisSearchStarted);
     }
   };
 
-  const handleEnter = (event) => {
-    if (event.key === "Enter") {
-      doSearch();
-    }
-  };
   return (
     <div className="header__input-wrapper">
       <div className="searchbar-wrapper">
@@ -50,7 +33,9 @@ const SearchBar = ({
         <img
           className={`icon ${iconClassOverride}`}
           src={search}
-          onClick={doSearch}
+          onClick={() => {
+            doSearch(searchTerm, setBooks, setisSearchStarted);
+          }}
         />
       </div>
     </div>

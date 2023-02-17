@@ -1,9 +1,9 @@
-import "./header.css";
+import "./header.scss";
 import DisplayBooks from "../displayBooks/displayBooks";
 
 const Header = ({ setisSearchStarted, books, setBooks }) => {
   return (
-    <header className="test">
+    <header>
       <DisplayBooks
         setisSearchStarted={setisSearchStarted}
         books={books}

@@ -1,4 +1,4 @@
-import "./scribe.css";
+import "./scribe.scss";
 const ScribeLogo = ({ setDisplay, display, className }) => {
   return (
     <div onClick={() => setDisplay(!display)}>
