@@ -1,4 +1,4 @@
-import "./header.css";
+import "./header.scss";
 import DisplayBooks from "../displayBooks/displayBooks";
 
 const Header = ({ setisSearchStarted, books, setBooks }) => {

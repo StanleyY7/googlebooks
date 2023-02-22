@@ -1,5 +1,5 @@
 import ScribeLogo from "../scribeLogo/scribe";
-import "./displayBooks.css";
+import "./displayBooks.scss";
 import { useState, useEffect } from "react";
 import SearchBar from "../searchBar/searchBar";
 import BookList from "../bookList/BookList";
