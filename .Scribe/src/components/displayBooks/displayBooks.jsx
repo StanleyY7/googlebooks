@@ -1,17 +1,16 @@
-import ScribeLogo from "../scribeLogo/scribe";
-import "./displayBooks.scss";
 import { useState, useEffect } from "react";
+
+import "./displayBooks.scss";
+
+import ScribeLogo from "../scribeLogo/scribe";
 import SearchBar from "../searchBar/searchBar";
 import BookList from "../bookList/BookList";
+import { HideBooks } from "../../services/general";
 
 const DisplayBooks = ({ setisSearchStarted, books, setBooks }) => {
   const [display, setDisplay] = useState(true);
 
   let iconClassOverride = "icon--override";
-
-  const HideBooks = () => {
-    setDisplay(!display);
-  };
 
   useEffect(() => {
     if (!display) {
@@ -28,7 +27,7 @@ const DisplayBooks = ({ setisSearchStarted, books, setBooks }) => {
           <div className="alignment-wrapper-left">
             <ScribeLogo
               className="section__ScribeLogo"
-              onClick={HideBooks}
+              onClick={() => HideBooks(display, setDisplay)}
               setDisplay={setDisplay}
               display={display}
             />
