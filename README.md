@@ -4,6 +4,8 @@ Link https://stanleyy7.github.io/googlebooks/
 
 ![scribeDisplay](https://user-images.githubusercontent.com/119549394/215255692-92979a46-a5e0-4601-8e6c-2588d6846d7c.png)
 
+<img width="250" src="https://github.com/StanleyY7/googlebooks/actions/workflows/main.yml/badge.svg"/>
+
 ## Outline
 The main aim of this project was to utilise our existing knowledge of HTML, CSS and Javascript and to build upon it by using newly acquired skills (React framework, Vite, use of Async, fetch and await) to create a responsive website which allows the user to search for a book via their input and to have it outputted as well. 
 
@@ -34,6 +36,10 @@ More specifically the grid of books should:
 - Each book in the grid should have an image, author, title and description
 - The grid should be responsive on different screen sizes
 - Async/await is to be used for the request code, NOT .then
+
+#### Bonus Features
+
+- Added Jest tests.
 
 ## Summary
 
