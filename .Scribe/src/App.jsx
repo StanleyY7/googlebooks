@@ -1,5 +1,5 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+
 import "./App.module.css";
 import styles from "./App.module.scss";
 import ScribeLogo from "../src/components/scribeLogo/scribe";

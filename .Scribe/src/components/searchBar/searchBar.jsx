@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import React from "react";
 import "./searchBar.scss";
 import search from "../../assets/search.png";
 

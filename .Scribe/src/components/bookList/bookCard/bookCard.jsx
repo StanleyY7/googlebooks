@@ -1,6 +1,6 @@
 import "./bookCard.scss";
 import { useState, useEffect } from "react";
-
+import React from "react";
 const BookCard = ({ book, className }) => {
   const [displayDesc, setDisplayDesc] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);

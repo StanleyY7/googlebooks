@@ -1,4 +1,5 @@
 import "./scribe.scss";
+import React from "react";
 const ScribeLogo = ({ setDisplay, display, className }) => {
   return (
     <div onClick={() => setDisplay(!display)}>

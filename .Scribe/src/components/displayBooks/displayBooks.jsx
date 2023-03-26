@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 
 import "./displayBooks.scss";
 
+import React from "react";
 import ScribeLogo from "../scribeLogo/scribe";
 import SearchBar from "../searchBar/searchBar";
 import BookList from "../bookList/BookList";
