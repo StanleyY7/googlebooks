@@ -1,7 +1,7 @@
 import { screen, render } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import React from "react";
-import BookList from "./BookList";
+import BookList from "./bookList";
 
 const renderBookList = (books) => {
   render(<BookList books={books} />);
