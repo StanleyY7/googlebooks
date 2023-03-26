@@ -5,7 +5,7 @@ import "./displayBooks.scss";
 import React from "react";
 import ScribeLogo from "../scribeLogo/scribe";
 import SearchBar from "../searchBar/searchBar";
-import BookList from "../bookList/BookList";
+import BookList from "../bookList/bookList";
 import { HideBooks } from "../../services/general";
 
 const DisplayBooks = ({ setisSearchStarted, books, setBooks }) => {
