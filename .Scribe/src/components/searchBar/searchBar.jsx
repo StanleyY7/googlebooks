@@ -29,6 +29,8 @@ const SearchBar = ({
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           onKeyDown={handleEnter}
+          required
+          maxLength={24}
         />
         <img
           className={`icon ${iconClassOverride}`}
